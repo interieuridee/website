@@ -75,9 +75,6 @@ export default function Philosophy() {
               stadium worden voorkomen. Dit resulteert in lagere kosten en een hogere opleverkwaliteit dan als dit achteraf
               aangepast zou moeten worden.
             </p>
-            <p className="text-lg">
-              Met onze begeleiding worden dure aanpassingen achteraf voorkomen én krijg je een interieur dat écht bij je past en zal het uiteindelijk beter aansluiten bij de wensen.
-            </p>
           </div>
         </div>
 

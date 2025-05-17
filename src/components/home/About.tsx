@@ -9,8 +9,8 @@ export default function About() {
             <div className="space-y-6">
               <p>
                 Met een scherp oog voor esthetiek en
-                functionaliteit vertalen wij uw wensen naar een
-                interieur dat past bij uw levensstijl of
+                functionaliteit vertalen wij wensen naar een
+                interieur dat past bij de levensstijl of
                 merkidentiteit. Van woningen en woonarken tot
                 horecazaken, kantoren en zorginstellingen.
               </p>
@@ -22,7 +22,7 @@ export default function About() {
                 zijn.
               </p>
               <p>
-                Guusje Bosman is de interieurarchitect bij
+                <strong>Guusje Bosman</strong> is de interieurarchitect bij
                 Interieur-Idee. Zij is sinds 1990 een
                 gediplomeerd interieurarchitect en staat
                 geregistreerd in het landelijk register voor

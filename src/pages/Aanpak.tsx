@@ -30,7 +30,7 @@ export default function Aanpak() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="mb-4">
-                Interieur-Idee is specialist in het (bouwkundig) herindeling van ruimtes die niet
+                Interieur-Idee is specialist in het (bouwkundig) herindelen van ruimtes die niet
                 altijd zeer ingrijpend hoeft te zijn voor een maximaal resultaat. Soms is het
                 omzetten van een wandje of het verplaatsen van een deur al voldoende voor een
                 verbluffend effect.

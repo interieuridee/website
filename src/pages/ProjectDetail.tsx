@@ -174,8 +174,8 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.JPG",
                     "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.JPG",
+                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.JPG",
                     "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.JPG"
                   ].map((image, index) => (
                     <img
@@ -191,13 +191,12 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/20240827_100219.jpg",
                     "/vakantiehuisMaas/20250502_103131.jpg",
-                    "/vakantiehuisMaas/20250502_120715.jpg",
-                    "/vakantiehuisMaas/20250505_091759.jpg",
                     "/vakantiehuisMaas/20240827_130503.jpg",
                     "/vakantiehuisMaas/20250502_104112.jpg",
-                    "/vakantiehuisMaas/20250502_121323.jpg"
+                    "/vakantiehuisMaas/20250502_120715.jpg",
+                    "/vakantiehuisMaas/20250502_121323.jpg",
+                    "/vakantiehuisMaas/20250505_091759.jpg"
                   ].map((image, index) => (
                     <img
                       key={index}
