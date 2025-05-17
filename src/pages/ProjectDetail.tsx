@@ -215,11 +215,11 @@ export default function ProjectDetail() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
                     "/Zondagschoolfotos/Voor/vd Mastenstraat voor.jpg",
+                    "/Zondagschoolfotos/Voor/voor1.JPG",
                     "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (11).jpg",
-                    "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (18).jpg",
-                    "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (22).jpg",
                     "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (9).jpg",
-                    "/Zondagschoolfotos/Voor/voor1.JPG"
+                    "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (18).jpg",
+                    "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (22).jpg"
                   ].map((image, index) => (
                     <img
                       key={index}
@@ -234,24 +234,23 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/Zondagschoolfotos/Na/Afbeelding van WhatsApp op 2025-05-17 om 09.18.17_4863698a.jpg",
-                    "/Zondagschoolfotos/Na/DSC_7332.JPG",
-                    "/Zondagschoolfotos/Na/_R6_0065 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0075 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0065 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/Afbeelding van WhatsApp op 2025-05-17 om 09.18.17_4863698a.jpg",
                     "/Zondagschoolfotos/Na/_R6_0104 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0109 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0121 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/_R6_0125 3 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/_R6_0138 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/_R6_0147 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/_R6_0149 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0162 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/_R6_0173 langer 2 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0147 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0125 3 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0149 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0138 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0178 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0181 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/tuin zondagsschool extra 2.jpg",
+                    "/Zondagschoolfotos/Na/_R6_0173 langer 2 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/tuin zondagsschool extra 1.jpg",
                     "/Zondagschoolfotos/Na/vd Mastensraat na .jpg",
-                    "/Zondagschoolfotos/Na/tuin zondagsschool extra 1.jpg"
+                    "/Zondagschoolfotos/Na/tuin zondagsschool extra 2.jpg"
                   ].map((image, index) => (
                     <img
                       key={index}
@@ -273,11 +272,11 @@ export default function ProjectDetail() {
                 "/woonarkfotos/WALZIJDE.JPG",
                 "/woonarkfotos/ZIJGEVELS.JPG",
                 "/woonarkfotos/1e schetsen.JPG",
-                "/woonarkfotos/Dia1.JPG",
-                "/woonarkfotos/IMG-20211111-WA0030.jpg",
-                "/woonarkfotos/IMG-20211111-WA0031.jpg",
+                "/woonarkfotos/woonarkheader.jpg",
                 "/woonarkfotos/maps voorgevel.jpg",
-                "/woonarkfotos/woonarkheader.jpg"
+                "/woonarkfotos/Dia1.JPG",
+                "/woonarkfotos/IMG-20211111-WA0031.jpg",
+                "/woonarkfotos/IMG-20211111-WA0030.jpg"
               ].map((image, index) => (
                 <img key={index} src={image} alt="Impressie Woonark" className="w-full h-auto rounded-lg shadow-md" />
               ))}
