@@ -188,15 +188,14 @@ export default function ProjectDetail() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/20250502_103131.jpg",
                     "/vakantiehuisMaas/20240827_130503.jpg",
-                    "/vakantiehuisMaas/20250502_104112.jpg",
+                    "/vakantiehuisMaas/20250505_091759.jpg",
+                    "/vakantiehuisMaas/20250502_103131.jpg",
                     "/vakantiehuisMaas/20250502_120715.jpg",
                     "/vakantiehuisMaas/20250502_121323.jpg",
-                    "/vakantiehuisMaas/20250505_091759.jpg"
+                    "/vakantiehuisMaas/20250502_104112.jpg"
                   ].map((image, index) => (
                     <img
                       key={index}
@@ -232,6 +231,7 @@ export default function ProjectDetail() {
               </div>
               <div>
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
+                <p className="text-sm text-gray-500 italic text-left mb-6">fotografie: Barbra Verbij</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
                     "/Zondagschoolfotos/Na/_R6_0075 © Barbra Verbij klein.jpg",
@@ -241,6 +241,7 @@ export default function ProjectDetail() {
                     "/Zondagschoolfotos/Na/_R6_0109 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0121 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0162 © Barbra Verbij klein.jpg",
+                    "/Zondagschoolfotos/Na/Afbeelding van WhatsApp op 2025-05-17 om 10.28.49_cf28d9df.jpg",
                     "/Zondagschoolfotos/Na/_R6_0147 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0125 3 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0149 © Barbra Verbij klein.jpg",
@@ -260,9 +261,6 @@ export default function ProjectDetail() {
                     />
                   ))}
                 </div>
-              </div>
-              <div className="pt-4">
-                <p className="text-sm text-gray-500 italic text-left">fotografie: Barbra Verbij</p>
               </div>
             </div>
           ) : (
@@ -291,9 +289,9 @@ export default function ProjectDetail() {
               {id === "brandweerkazerne" && [
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_1be2a254.jpg",
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_4c3d3256.jpg",
-                "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_960fc76a.jpg",
-                "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_29296cd8.jpg",
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_c3af1056.jpg",
+                "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_29296cd8.jpg",
+                "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_960fc76a.jpg",
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.46_eabe12a5.jpg"
               ].map((image, index) => (
                 <img key={"whatsapp-"+index} src={image} alt="Impressie Brandweerkazerne extra" className="w-full h-auto rounded-lg shadow-md" />
