@@ -234,6 +234,7 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
+                    "/Zondagschoolfotos/Na/Afbeelding van WhatsApp op 2025-05-17 om 09.18.17_4863698a.jpg",
                     "/Zondagschoolfotos/Na/DSC_7332.JPG",
                     "/Zondagschoolfotos/Na/_R6_0065 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0075 © Barbra Verbij klein.jpg",
@@ -248,7 +249,6 @@ export default function ProjectDetail() {
                     "/Zondagschoolfotos/Na/_R6_0173 langer 2 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0178 © Barbra Verbij klein.jpg",
                     "/Zondagschoolfotos/Na/_R6_0181 © Barbra Verbij klein.jpg",
-                    "/Zondagschoolfotos/Na/mastenstraat header.jpg",
                     "/Zondagschoolfotos/Na/tuin zondagsschool extra 2.jpg",
                     "/Zondagschoolfotos/Na/vd Mastensraat na .jpg",
                     "/Zondagschoolfotos/Na/tuin zondagsschool extra 1.jpg"
