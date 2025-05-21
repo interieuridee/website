@@ -182,13 +182,14 @@ export default function ProjectDetail() {
                       key={index}
                       src={image}
                       alt="Vakantiehuis voor verbouwing"
-                      className="w-full h-[400px] object-cover rounded-lg shadow-md"
+                      className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
                     "/vakantiehuisMaas/20240827_130503.jpg",
                     "/vakantiehuisMaas/20250505_091759.jpg",
@@ -201,7 +202,7 @@ export default function ProjectDetail() {
                       key={index}
                       src={image}
                       alt="Vakantiehuis na verbouwing"
-                      className="w-full h-[400px] object-cover rounded-lg shadow-md"
+                      className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
                 </div>
@@ -224,7 +225,7 @@ export default function ProjectDetail() {
                       key={index}
                       src={image}
                       alt="Zondagsschool voor verbouwing"
-                      className="w-full h-[400px] object-cover rounded-lg shadow-md"
+                      className="w-full h-[400px] object-cover shadow-md"
                     />
                   ))}
                 </div>
@@ -257,7 +258,13 @@ export default function ProjectDetail() {
                       key={index}
                       src={image}
                       alt="Zondagsschool na verbouwing"
-                      className="w-full h-[400px] object-cover rounded-lg shadow-md"
+                      className={
+                        image === "/Zondagschoolfotos/Na/_R6_0173 langer 2 © Barbra Verbij klein.jpg"
+                          ? "w-full h-[400px] object-cover object-left shadow-md"
+                          : image === "/Zondagschoolfotos/Na/_R6_0181 © Barbra Verbij klein.jpg"
+                          ? "w-full h-[400px] object-cover object-bottom shadow-md"
+                          : "w-full h-[400px] object-cover shadow-md"
+                      }
                     />
                   ))}
                 </div>
@@ -269,21 +276,21 @@ export default function ProjectDetail() {
                 "/woonarkfotos/WATERZIJDE.JPG",
                 "/woonarkfotos/WALZIJDE.JPG",
                 "/woonarkfotos/ZIJGEVELS.JPG",
-                "/woonarkfotos/1e schetsen.JPG",
+                "/woonarkfotos/Afbeelding van WhatsApp op 2025-05-21 om 18.06.35_5ed5e667.jpg",
                 "/woonarkfotos/woonarkheader.jpg",
                 "/woonarkfotos/maps voorgevel.jpg",
-                "/woonarkfotos/Dia1.JPG",
+                "/woonarkfotos/Afbeelding van WhatsApp op 2025-05-21 om 14.18.11_6debfe8a.jpg",
                 "/woonarkfotos/IMG-20211111-WA0031.jpg",
                 "/woonarkfotos/IMG-20211111-WA0030.jpg"
               ].map((image, index) => (
-                <img key={index} src={image} alt="Impressie Woonark" className="w-full h-auto rounded-lg shadow-md" />
+                <img key={index} src={image} alt="Impressie Woonark" className="w-full h-[250px] object-cover shadow-md" />
               ))}
               {id === "brandweerkazerne" && [
                 "/brandweerkazernefotos/20250513_132149.jpg",
                 "/brandweerkazernefotos/IMG-20200730-WA0003.jpg",
                 "/brandweerkazernefotos/20200730_105546.jpg",
               ].map((image, index) => (
-                <img key={index} src={image} alt="Impressie Brandweerkazerne" className="w-full h-auto rounded-lg shadow-md" />
+                <img key={index} src={image} alt="Impressie Brandweerkazerne" className="w-full h-auto shadow-md" />
               ))}
               {/* Extra WhatsApp foto's */}
               {id === "brandweerkazerne" && [
@@ -294,7 +301,7 @@ export default function ProjectDetail() {
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_960fc76a.jpg",
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.46_eabe12a5.jpg"
               ].map((image, index) => (
-                <img key={"whatsapp-"+index} src={image} alt="Impressie Brandweerkazerne extra" className="w-full h-auto rounded-lg shadow-md" />
+                <img key={"whatsapp-"+index} src={image} alt="Impressie Brandweerkazerne extra" className="w-full h-auto shadow-md" />
               ))}
             </div>
           )}
