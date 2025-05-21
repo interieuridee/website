@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
       </div>
       
-      <div className="container-custom relative z-10 mt-20 md:mt-0">
+      <div className="container-custom relative z-10 mt-20 md:mt-0 lg:ml-32">
         <div className="max-w-3xl">
           <h1 className="text-white mb-6 drop-shadow-md text-left font-bold font-sans">
             Interieur-Idee

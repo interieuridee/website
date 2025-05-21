@@ -4,7 +4,7 @@ export default function About() {
   return <section id="about" className="section bg-offwhite">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center lg:ml-16">
             <h3 className="text-xl mb-6 text-left">Over Interieur-Idee</h3>
             <div className="space-y-6">
               <p>
@@ -37,10 +37,14 @@ export default function About() {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <div className="w-[300px] bg-cover bg-center" style={{
+            <div className="relative w-[300px] bg-cover bg-center" style={{
               backgroundImage: "url('/lovable-uploads/fotoss/_R6_0224 © Barbra Verbij klein.jpg')",
               aspectRatio: "9 / 16"
-            }}></div>
+            }}>
+              <div className="absolute bottom-2 right-2 text-white text-xs italic drop-shadow" style={{pointerEvents: 'none'}}>
+                fotografie: Barbra Verbij
+              </div>
+            </div>
           </div>
         </div>
       </div>
