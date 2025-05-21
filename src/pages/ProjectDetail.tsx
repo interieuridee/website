@@ -174,8 +174,8 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.JPG",
                     "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.JPG",
+                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.JPG",
                     "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.JPG"
                   ].map((image, index) => (
                     <img
@@ -225,7 +225,11 @@ export default function ProjectDetail() {
                       key={index}
                       src={image}
                       alt="Zondagsschool voor verbouwing"
-                      className="w-full h-[400px] object-cover shadow-md"
+                      className={
+                        index === 0
+                          ? "w-full h-[400px] object-cover object-left shadow-md"
+                          : "w-full h-[400px] object-cover shadow-md"
+                      }
                     />
                   ))}
                 </div>
