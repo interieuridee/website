@@ -19,9 +19,9 @@ export default function Contact() {
       </section>
 
       <section className="section">
-        <div className="container-custom">
+        <div className="container-custom max-w-6xl ml-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
+            <div className="lg:pl-12">
               <h3 className="mb-6 text-left">Contactgegevens</h3>
               
               <div className="mb-8 flex items-start">
@@ -51,7 +51,7 @@ export default function Contact() {
               </div>
             </div>
             
-            <div className="flex justify-center">
+            <div className="flex justify-center lg:justify-start">
               <img 
                 src="/lovable-uploads/guusje bosman.png"
                 alt="Guusje Bosman" 
