@@ -315,7 +315,7 @@ export default function ProjectDetail() {
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
               <img src="/plattegronden/vakantiehuisplattegrond (2).png" alt="Plattegrond Zondagsschool 1" className="w-full max-w-md h-auto rounded-lg" />
-              <img src="/plattegronden/vakantiehuisplattegrond (1).png" alt="Plattegrond Zondagsschool 2" className="w-full max-w-md h-auto rounded-lg" />
+              <img src="/plattegronden/vakantiehuisplattegrond5 (1).png" alt="Plattegrond Zondagsschool 2" className="w-full max-w-md h-auto rounded-lg" />
             </div>
           </div>
         </section>
@@ -327,8 +327,7 @@ export default function ProjectDetail() {
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-              <img src="/plattegronden/woonarkplattegrond.png" alt="Plattegrond Woonark 1" className="w-full max-w-md h-auto rounded-lg" />
-              <img src="/woonarkfotos/vakantiehuisplattegrond5.png" alt="Plattegrond Woonark 2" className="w-full max-w-md h-auto rounded-lg" />
+              <img src="/plattegronden/woonarkplatte-grond.png" alt="Plattegrond Woonark" className="w-full max-w-xl h-auto rounded-lg" />
             </div>
           </div>
         </section>
