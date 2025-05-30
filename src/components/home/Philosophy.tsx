@@ -64,7 +64,7 @@ export default function Philosophy() {
             <img
               src="/public/lovable-uploads/Afbeelding6.png"
               alt="Kopersbegeleiding"
-              className="w-[90%] h-auto rounded-lg shadow-lg"
+              className="w-[90%] h-auto shadow-lg"
             />
           </div>
           <div className="w-full md:w-1/2">
