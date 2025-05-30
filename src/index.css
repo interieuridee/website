@@ -137,4 +137,24 @@
            bg-green-500 text-white rounded-full flex items-center justify-center 
            shadow-lg hover:bg-green-600 transition-colors duration-300;
   }
+
+  /* Aanpak mobiele afbeeldingen: carousel vervangen door afbeeldingen onder elkaar */
+  @media (max-width: 767px) {
+    /* Verberg de carousel navigatie op mobiel */
+    .aanpak-mobile-carousel .embla__button,
+    .aanpak-mobile-carousel .absolute {
+      display: none !important;
+    }
+    /* Zet de carousel content verticaal */
+    .aanpak-mobile-carousel .embla__container,
+    .aanpak-mobile-carousel .flex {
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+    }
+    .aanpak-mobile-carousel .relative.w-full.pb-\[177\.78%\] {
+      width: 100% !important;
+      padding-bottom: 56.25% !important; /* 16:9 verhouding */
+      margin-bottom: 1.5rem;
+    }
+  }
 }

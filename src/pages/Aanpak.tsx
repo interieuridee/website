@@ -125,38 +125,25 @@ export default function Aanpak() {
             ))}
           </div>
 
-          {/* Mobile view - carousel */}
-          <div className="md:hidden">
-            <Carousel
-              opts={{
-                align: "start",
-                loop: true,
-              }}
-              className="w-full"
-            >
-              <CarouselContent>
-                {[
-                  '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.jpg',
-                  '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.jpg',
-                  '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.jpg'
-                ].map((image, index) => (
-                  <CarouselItem key={index}>
-                    <div className="relative w-full pb-[177.78%]">
-                      <div 
-                        className="absolute inset-0 bg-cover bg-center" 
-                        style={{ backgroundImage: `url('${image}')` }}
-                      ></div>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <div className="absolute -left-4 top-1/2 -translate-y-1/2">
-                <CarouselPrevious />
+          {/* Mobile view - afbeeldingen onder elkaar, 9:16 aspect-ratio, zonder afgeronde hoeken */}
+          <div className="md:hidden flex flex-col gap-6">
+            {[
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.jpg',
+              '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.jpg',
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.jpg'
+            ].map((image, index) => (
+              <div key={index} className="relative w-full aspect-[9/16] shadow-md overflow-hidden mb-4">
+                <div 
+                  className="absolute inset-0 bg-cover bg-center" 
+                  style={{ backgroundImage: `url('${image}')` }}
+                ></div>
+                {index === 2 && (
+                  <p className="absolute bottom-2 right-2 text-white text-sm italic font-sans">
+                    fotografie: Barbra Verbij
+                  </p>
+                )}
               </div>
-              <div className="absolute -right-4 top-1/2 -translate-y-1/2">
-                <CarouselNext />
-              </div>
-            </Carousel>
+            ))}
           </div>
         </div>
       </section>
