@@ -19,7 +19,7 @@ export default function Navbar() {
   }, [location.pathname]);
 
   return (
-    <nav className="bg-[#dcd9d0] py-5 relative z-10">
+    <nav className="bg-[#dcd9d0] py-5 fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
@@ -67,6 +67,7 @@ export default function Navbar() {
                   'text-sm uppercase tracking-wider py-2 text-center font-medium text-charcoal transition-colors',
                   location.pathname === link.href ? 'font-bold' : ''
                 )}
+                onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
               </Link>
