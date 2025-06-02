@@ -22,7 +22,7 @@ export default function Hero() {
             zowel particuliere als zakelijke opdrachtgevers.
           </p>
           <div className="mt-8">
-            <a href="#about" className="inline-block px-8 py-3 bg-white text-charcoal uppercase text-sm tracking-wider hover:bg-cream transition-colors duration-300">
+            <a href="/aanpak" className="inline-block px-8 py-3 bg-white text-charcoal uppercase text-sm tracking-wider hover:bg-cream transition-colors duration-300">
               Ontdek meer
             </a>
           </div>

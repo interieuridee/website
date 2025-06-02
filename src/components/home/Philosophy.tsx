@@ -26,10 +26,8 @@ export default function Philosophy() {
             </div>
             <h3 className="text-xl mb-3 text-center">Persoonlijk en helder contact</h3>
             <p className="text-sm">
-              Tijdens het hele proces is er één vast
-              aanspreekpunt. Iemand die niet alleen de planning en
-              coördinatie bewaakt, maar ook helder en proactief met
-              u communiceert.
+              Tijdens het hele proces is er één vast aanspreekpunt. Iemand die niet alleen de planning en
+              coördinatie bewaakt, maar ook helder en proactief communiceert.
             </p>
           </div>
           
