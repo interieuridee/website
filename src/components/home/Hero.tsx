@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 export default function Hero() {
   return <section className="relative min-h-screen flex items-center">
       <div className="absolute inset-0 z-0 bg-cover bg-center" style={{
@@ -22,9 +23,9 @@ export default function Hero() {
             zowel particuliere als zakelijke opdrachtgevers.
           </p>
           <div className="mt-8">
-            <a href="https://www.interieur-idee.nl/aanpak" className="inline-block px-8 py-3 bg-white text-charcoal uppercase text-sm tracking-wider hover:bg-cream transition-colors duration-300">
+            <Link to="/aanpak" className="inline-block px-8 py-3 bg-white text-charcoal uppercase text-sm tracking-wider hover:bg-cream transition-colors duration-300">
               Ontdek meer
-            </a>
+            </Link>
           </div>
         </div>
       </div>
