@@ -293,7 +293,7 @@ export default function ProjectDetail() {
                   alt="Impressie Woonark" 
                   className={`w-full shadow-md ${
                     index < 3 
-                      ? "h-[300px] md:h-[400px] object-contain bg-gray-100" 
+                      ? "h-[300px] md:h-[400px] object-contain bg-white" 
                       : "h-[250px] object-cover"
                   }`}
                 />
