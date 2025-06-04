@@ -287,7 +287,16 @@ export default function ProjectDetail() {
                 "/woonarkfotos/IMG-20211111-WA0031.jpg",
                 "/woonarkfotos/IMG-20211111-WA0030.jpg"
               ].map((image, index) => (
-                <img key={index} src={image} alt="Impressie Woonark" className="w-full h-[250px] object-cover shadow-md" />
+                <img 
+                  key={index} 
+                  src={image} 
+                  alt="Impressie Woonark" 
+                  className={`w-full shadow-md ${
+                    index < 3 
+                      ? "h-[300px] md:h-[400px] object-contain bg-gray-100" 
+                      : "h-[250px] object-cover"
+                  }`}
+                />
               ))}
               {id === "brandweerkazerne" && [
                 "/brandweerkazernefotos/20250513_132149.jpg",
