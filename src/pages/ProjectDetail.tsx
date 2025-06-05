@@ -339,8 +339,22 @@ export default function ProjectDetail() {
         <section className="section bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-              <img src="/plattegronden/woonarkplatte-grond.png" alt="Plattegrond Woonark" className="w-full max-w-xl h-auto rounded-lg" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <img 
+                src="/plattegronden/woonarkafbeelding1.jpg" 
+                alt="Plattegrond Woonark 1" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/woonarkafbeelding2.jpg" 
+                alt="Plattegrond Woonark 2" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/woonarkafbeelding3.jpg" 
+                alt="Plattegrond Woonark 3" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
             </div>
           </div>
         </section>
@@ -351,8 +365,17 @@ export default function ProjectDetail() {
         <section className="section bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-              <img src="/plattegronden/vakantiehuisplattegrond.png" alt="Plattegrond Vakantiehuis aan de Maas" className="w-full max-w-md h-auto rounded-lg" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <img 
+                src="/plattegronden/vakantiehuisMaas1.jpg" 
+                alt="Plattegrond Vakantiehuis aan de Maas 1" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/vakantiehuisMaas2.jpg" 
+                alt="Plattegrond Vakantiehuis aan de Maas 2" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
             </div>
           </div>
         </section>
