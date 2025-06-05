@@ -1,7 +1,9 @@
 import { Analytics } from "@vercel/analytics/react";
 import ReviewCard from "../shared/ReviewCard";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function Philosophy() {
+  const isMobile = useIsMobile();
   return (
     <section className="section bg-white">
       <div className="container-custom">
@@ -79,7 +81,7 @@ export default function Philosophy() {
 
         {/* Reviews Section */}
         <div className="mt-24">
-          <h2 className="text-4xl font-serif mb-4 text-center">Wat onze opdrachtgevers zeggen</h2>
+          <h2 className="text-4xl font-serif mb-12 text-center">Wat onze opdrachtgevers zeggen</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             <ReviewCard 
               text="De samenwerking ging eigenlijk vanzelf. Ik had mijn wensen maar geen idee hoe ik dit moest omzetten in een comfortabel drijvend paleis. Vanaf de 1e tekening zat Guus in de juiste richting. Het resultaat is inderdaad bijzonder verrassend, het is een juweeltje op het water geworden."
@@ -97,6 +99,12 @@ export default function Philosophy() {
               text="Door Guusje voelt het echt als 'thuiskomen'! Na onze begane grond verbouwing zijn we weer terug gekomen bij Guusje om onze badkamer te verbouwen. Ze werkt snel, netjes en denkt altijd mee aan creatieve ideeën!"
               author="Andy en Babiche"
             />
+            {isMobile && (
+              <ReviewCard 
+                text="Fijn om met kennis en kunde te zijn bijgestaan bij het ontwerp van onze benedenverdieping. Naast voorstellen voor indeling en materialen heeft Interieur-Idee ook veel betekend in de realisatie van de verbouwing."
+                author="Familie uit Delft"
+              />
+            )}
           </div>
         </div>
       </div>
