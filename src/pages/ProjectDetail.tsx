@@ -343,17 +343,17 @@ export default function ProjectDetail() {
               <img 
                 src="/plattegronden/woonarkafbeelding1.JPG" 
                 alt="Plattegrond Woonark 1" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
               />
               <img 
                 src="/plattegronden/woonarkafbeelding2.JPG" 
                 alt="Plattegrond Woonark 2" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
               />
               <img 
                 src="/plattegronden/woonarkafbeelding3.JPG" 
                 alt="Plattegrond Woonark 3" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
               />
             </div>
           </div>
