@@ -341,17 +341,17 @@ export default function ProjectDetail() {
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <img 
-                src="/plattegronden/woonarkafbeelding1.jpg" 
+                src="/plattegronden/woonarkafbeelding1.JPG" 
                 alt="Plattegrond Woonark 1" 
                 className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
               />
               <img 
-                src="/plattegronden/woonarkafbeelding2.jpg" 
+                src="/plattegronden/woonarkafbeelding2.JPG" 
                 alt="Plattegrond Woonark 2" 
                 className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
               />
               <img 
-                src="/plattegronden/woonarkafbeelding3.jpg" 
+                src="/plattegronden/woonarkafbeelding3.JPG" 
                 alt="Plattegrond Woonark 3" 
                 className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
               />
@@ -367,13 +367,13 @@ export default function ProjectDetail() {
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <img 
-                src="/plattegronden/vakantiehuisMaas1.jpg" 
-                alt="Plattegrond Vakantiehuis aan de Maas 1" 
+                src="/plattegronden/plattegrondvakantiehuis2.JPG" 
+                alt="Plattegrond Vakantiehuis aan de Maas 2" 
                 className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
               />
               <img 
-                src="/plattegronden/vakantiehuisMaas2.jpg" 
-                alt="Plattegrond Vakantiehuis aan de Maas 2" 
+                src="/plattegronden/plattegrondvakantiehuis1.JPG" 
+                alt="Plattegrond Vakantiehuis aan de Maas 1" 
                 className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
               />
             </div>
