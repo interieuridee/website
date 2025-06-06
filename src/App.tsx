@@ -12,6 +12,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react";
+import { HelmetProvider } from "react-helmet-async";
 
 const queryClient = new QueryClient();
 const App = () => (
@@ -20,37 +21,39 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="flex flex-col min-h-screen">
-          <Navbar />
-          <main className="flex-grow">
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/aanpak" element={<Aanpak />} />
-              <Route path="/projecten" element={<Projecten />} />
-              <Route path="/projecten/:id" element={<ProjectDetail />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
+        <HelmetProvider>
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-grow">
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/aanpak" element={<Aanpak />} />
+                <Route path="/projecten" element={<Projecten />} />
+                <Route path="/projecten/:id" element={<ProjectDetail />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
 
-        {/* Floating WhatsApp Button */}
-        <a
-          href="https://wa.me/31654994964"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-button"
-          aria-label="Contact via WhatsApp"
-        >
-          <img
-            src="/lovable-uploads/icons8-whatsapp.svg"
-            alt="WhatsApp"
-            width="24"
-            height="24"
-          />
-        </a>
-        <Analytics />
+          {/* Floating WhatsApp Button */}
+          <a
+            href="https://wa.me/31654994964"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-button"
+            aria-label="Contact via WhatsApp"
+          >
+            <img
+              src="/lovable-uploads/icons8-whatsapp.svg"
+              alt="WhatsApp"
+              width="24"
+              height="24"
+            />
+          </a>
+          <Analytics />
+        </HelmetProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

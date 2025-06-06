@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import SectionTitle from "@/components/shared/SectionTitle";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -108,6 +109,14 @@ export default function ProjectDetail() {
   
   return (
     <>
+      <Helmet>
+        <title>{`${project.title} | Projecten | Interieur-Idee`}</title>
+        <meta name="description" content={project.description} />
+        <meta property="og:title" content={`${project.title} | Projecten | Interieur-Idee`} />
+        <meta property="og:description" content={project.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={project.coverImage} />
+      </Helmet>
       {/* Hero Section */}
       <section
         className="relative h-[500px] bg-cover bg-center"
