@@ -42,7 +42,7 @@ export default function Aanpak() {
               </p>
             </div>
             <div className="flex flex-col">
-              <div className="h-[500px] bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/lovable-uploads/aanpakinterieur.png')" }}></div>
+              <div className="h-[500px] bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/lovable-uploads/aanpakinterieur.webp')" }}></div>
             </div>
           </div>
         </div>
@@ -107,9 +107,9 @@ export default function Aanpak() {
           {/* Desktop view - static images */}
           <div className="hidden md:grid md:grid-cols-3 gap-8">
             {[
-              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.jpg',
-              '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.jpg',
-              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.jpg'
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.webp',
+              '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.webp',
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.webp'
             ].map((image, index) => (
               <div key={index} className="relative w-full pb-[177.78%]">
                 <div 
@@ -128,9 +128,9 @@ export default function Aanpak() {
           {/* Mobile view - afbeeldingen onder elkaar, 9:16 aspect-ratio, zonder afgeronde hoeken */}
           <div className="md:hidden flex flex-col gap-6">
             {[
-              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.jpg',
-              '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.jpg',
-              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.jpg'
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_9e7a0e4e.webp',
+              '/lovable-uploads/fotoss/_R6_0178 © Barbra Verbij klein.webp',
+              '/lovable-uploads/fotoss/Afbeelding van WhatsApp op 2025-05-16 om 17.01.44_18dce4d4.webp'
             ].map((image, index) => (
               <div key={index} className="relative w-full aspect-[9/16] shadow-md overflow-hidden mb-4">
                 <div 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   return <section className="relative min-h-screen flex items-center">
       <div className="absolute inset-0 z-0 bg-cover bg-center" style={{
-      backgroundImage: "url('/lovable-uploads/fotoss/_R6_0149 © Barbra Verbij klein.jpg')",
+      backgroundImage: "url('/lovable-uploads/fotoss/_R6_0149 © Barbra Verbij klein.webp')",
       backgroundPosition: "center center"
     }}>
         <div className="absolute inset-0 bg-black opacity-10"></div>

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex flex-col items-center lg:items-start">
             <div className="mb-6 flex justify-center lg:justify-start w-full">
               <img 
-                src="/lovable-uploads/interieur-idee logo.png" 
+                src="/lovable-uploads/interieur-idee logo.webp" 
                 alt="Interieur-Idee Logo" 
                 className="h-10"
               />

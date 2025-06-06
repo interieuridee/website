@@ -7,19 +7,19 @@ const projects = [
 		id: "zondagsschool",
 		title: "Woning in voormalige zondagsschool",
 		category: "Herbestemming",
-		imageUrl: "/Zondagschoolfotos/mastenstraatheader.jpg",
+		imageUrl: "/Zondagschoolfotos/mastenstraatheader.webp",
 	},
 	{
 		id: "woonark",
 		title: "Woonark in het Spaarne",
 		category: "Ontwerp",
-		imageUrl: "/woonarkfotos/woonarkheader.jpg",
+		imageUrl: "/woonarkfotos/woonarkheader.webp",
 	},
 	{
 		id: "vakantiehuisMaas",
 		title: "Vakantiehuis aan de Maas",
 		category: "Herindeling",
-		imageUrl: "/vakantiehuisMaas/20240827_100219.jpg",
+		imageUrl: "/vakantiehuisMaas/20240827_100219.webp",
 	},
 ];
 

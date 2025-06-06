@@ -63,7 +63,7 @@ export default function Philosophy() {
         <div className="mt-24 flex flex-col md:flex-row items-center gap-12 bg-[#f4f4f0] p-12 rounded-lg">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/lovable-uploads/huizenplaatjeverkoopbegeleiding.png"
+              src="/lovable-uploads/huizenplaatjeverkoopbegeleiding.webp"
               alt="Kopersbegeleiding"
               className="w-[90%] h-auto shadow-lg"
             />

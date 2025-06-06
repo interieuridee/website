@@ -8,7 +8,7 @@ const projectData = {
   "zondagsschool": {
     title: "Woning in voormalige zondagsschool",
     subtitle: "Transformatie van een gesloten pand naar een woonhuis met een licht en open karakter",
-    coverImage: "/lovable-uploads/fotoss/mastenstraat header.jpg",
+    coverImage: "/lovable-uploads/fotoss/mastenstraat header.webp",
     description: `Een voormalige zondagsschool uit 1952 is getransformeerd tot een comfortabele woning. Oorspronkelijk bestond het pand uit kantoor- en vergaderruimtes op de begane grond en een grote open ruimte op de verdieping, bereikbaar via binnen- en buitentrap. Het pand is met respect voor de oorspronkelijke structuur herbestemd tot een comfortabele en eigentijdse woning.`,
     challenge: `Het pand had een gesloten zijgevel, een ongelukkig geplaatste trap in een hoek en geen entree aan de straatzijde. Daarnaast ontbrak isolatie in vloer, dak en ramen en bestond de tuin volledig uit stoeptegels.`,
     solution: `Er zijn extra ramen in de zijgevel en dak geplaatst en de trap is centraal in de woning gebracht, wat een open indeling boven mogelijk maakte. De overloop fungeert nu als tweede zitkamer. Het verlaagde plafond is verwijderd en het dak is van buitenaf geïsoleerd, waardoor het originele dakbeschot zichtbaar is gebleven. Alle ramen en vloeren zijn vernieuwd en geïsoleerd. Op de begane grond is een nieuwe entree aan de straatzijde gerealiseerd, wat het pand een duidelijker aanzicht geeft. Tot slot zijn de stoeptegels in de tuin deels vervangen door gras, en zijn er tussenliggend klinkertjes geplaatst.`,
@@ -18,23 +18,23 @@ const projectData = {
       oppervlak: "200 m2"
     },
     impressies: [
-      "/Zondagschoolfotos/voor foto groot eetkamer.JPG",
-      "/Zondagschoolfotos/vd Mastenstraat zijgevel na  (1).jpg",
-      "/Zondagschoolfotos/vd Mastenstraat voor.jpg",
-      "/Zondagschoolfotos/vd Mastenstraat vóór (22).jpg",
-      "/Zondagschoolfotos/vd Mastenstraat vóór (18).jpg",
-      "/Zondagschoolfotos/vd Mastenstraat vóór (11).jpg",
-      "/Zondagschoolfotos/vd Mastenstraat vóór (9).jpg",
-      "/Zondagschoolfotos/vd Mastenstraat na  (1).jpg",
-      "/Zondagschoolfotos/mastenstraatheader.jpg",
-      "/Zondagschoolfotos/DSC_7332.JPG",
-      "/Zondagschoolfotos/vd Mastensraat na .jpg"
+      "/Zondagschoolfotos/voor foto groot eetkamer.webp",
+      "/Zondagschoolfotos/vd Mastenstraat zijgevel na  (1).webp",
+      "/Zondagschoolfotos/vd Mastenstraat voor.webp",
+      "/Zondagschoolfotos/vd Mastenstraat vóór (22).webp",
+      "/Zondagschoolfotos/vd Mastenstraat vóór (18).webp",
+      "/Zondagschoolfotos/vd Mastenstraat vóór (11).webp",
+      "/Zondagschoolfotos/vd Mastenstraat vóór (9).webp",
+      "/Zondagschoolfotos/vd Mastenstraat na  (1).webp",
+      "/Zondagschoolfotos/mastenstraatheader.webp",
+      "/Zondagschoolfotos/DSC_7332.webp",
+      "/Zondagschoolfotos/vd Mastensraat na .webp"
     ]
   },
   "woonark": {
     title: "Woonark in het Spaarne",
     subtitle: "Nieuw ontworpen woonark met twee lagen",
-    coverImage: "/woonarkfotos/woonarkheader.jpg",
+    coverImage: "/woonarkfotos/woonarkheader.webp",
     description: `Voor deze nieuwe woonark ontwierpen we een licht en open alternatief ter vervanging van een oudere ark met vaste maximale afmetingen. Het nieuwe ontwerp speelt in op de wens voor een licht, ruimtelijk en flexibel geheel.`,
     challenge: `Hoewel de ark bedoeld is voor één persoon, bleek een twee-laagse opzet financieel gunstiger. De wens was een ruimtelijk, loftachtig gevoel en geen gang met kleine kamers. Functionele eisen waren o.a. een entree op kadeniveau, een terras maximaal 40 cm boven het water en een directe verbinding tussen eetkamer en terras.`,
     solution: `Door verschillende niveaus te laten verspringen met telkens 40 cm, ontstonden logische overgangen. De entree en slaapkamer op kadeniveau, keuken en terras iets lager, de zitkamer op waterniveau. Beneden wordt twee derde van de ruimte benut als woonverdieping, de rest als berging. Beneden zijn de ramen in de slaapkamers boven het betonnen casco geplaatst, wat resulteert in verhoogde kozijnen met daglichttoetreding van bovenaf. De uitspringende koven die hierdoor boven ontstaan, worden daar als zitbanken gebruikt. De indeling is flexibel, twee slaapkamers zijn eenvoudig samen te voegen tot één royale ruimte.`,
@@ -47,7 +47,7 @@ const projectData = {
   "brandweerkazerne": {
     title: "Projectinrichting en kleuradvies brandweerkazerne",
     subtitle: "Een tweede thuis op het werk",
-    coverImage: "/brandweerkazernefotos/20250513_132149.jpg",
+    coverImage: "/brandweerkazernefotos/20250513_132149.webp",
     description: `Voor de nieuwe kazerne was nog geen kleur- en materiaalplan opgesteld voor het vaste en losse meubilair, evenals de stoffering. De opdracht richtte zich op de inrichting van diverse ruimten, waaronder de entree, zitkamer, woonkeuken, slaapkamers, kantoren en leslokalen.`,
     challenge: `Binnen de kazerne werken drie teams in ploegendienst. Omdat de kazerne fungeert als hun tweede thuis, was het essentieel dat alle teams zich prettig voelen in de ruimtes ondanks uiteenlopende voorkeuren. Met name het zitcomfort en de robuustheid van de relaxstoelen in de zitkamer waren cruciaal. Daaruit moest men snel kunnen opstaan bij een noodoproep.`,
     solution: `Door vanaf de start alle teams actief te betrekken bij het ontwerpproces, ontstond er draagvlak voor een gezamenlijke visie. De gekozen kleuren en materialen sloten aan op het bestaande architectonisch ontwerp, zodat een harmonieus geheel ontstond. Na het testen van diverse modellen, kozen de teams unaniem voor een relaxstoel met vier poten en een los voetenbankje, uitgevoerd in vier kleuren kunstleer. Daarnaast kregen persoonlijke elementen een plek in het ontwerp. Ingezonden foto’s van medewerkers werden verwerkt tot fotobehang op meerdere locaties in het gebouw.`,
@@ -60,7 +60,7 @@ const projectData = {
   "vakantiehuisMaas": {
     title: "Vakantiehuis aan de Maas",
     subtitle: "Verbouwing van chalet op palen",
-    coverImage: "/vakantiehuisMaas/20240827_130503.jpg",
+    coverImage: "/vakantiehuisMaas/20240827_130503.webp",
     description: `Een chalet op palen aan de afgedamde maas met 3 slaapplaatsen is verbouwd tot een 4-persoons vakantiehuis door een deel van de berging bij het woongedeelte te trekken.`,
     challenge: `In de bestaande indeling zat de toegang naar de badkamer in de grotere slaapkamer. In de kleinere slaapkamer kon slechts een 1-persoonsbed staan. De gehele woning had een verlaagd plafond en ademde niet de sfeer uit van wonen aan het water. Er was aan de achterzijde geen toegang tot het terras. Voor de verbouwing was maar een zeer beperkt budget.`,
     solution: `Door een deel van de naastgelegen berging bij de woning te trekken, kon de grote slaapkamer doorschuiven en de kleine slaapkamer groter gemaakt worden. Deze aanpassing is zodanig uitgevoerd dat de badkamer op de oorspronkelijke locatie kon blijven, maar nu via een gang toegankelijk is. Aan de achterzijde zijn 2e hands openslaande deuren geplaatst. Het verlaagde plafond in de zitkamer/keuken is verwijderd, de keuken vervangen door een iets groter model dat afkomstig is uit een showroomverkoop.`,
@@ -70,16 +70,16 @@ const projectData = {
       oppervlak: "40 m2"
     },
     impressies: [
-      "/vakantiehuisMaas/20240827_100219.jpg",
-      "/vakantiehuisMaas/20250502_103131.jpg",
-      "/vakantiehuisMaas/20250502_120715.jpg",
-      "/vakantiehuisMaas/20250505_091759.jpg",
-      "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.JPG",
-      "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.JPG",
-      "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.JPG",
-      "/vakantiehuisMaas/20240827_130503.jpg",
-      "/vakantiehuisMaas/20250502_104112.jpg",
-      "/vakantiehuisMaas/20250502_121323.jpg"
+      "/vakantiehuisMaas/20240827_100219.webp",
+      "/vakantiehuisMaas/20250502_103131.webp",
+      "/vakantiehuisMaas/20250502_120715.webp",
+      "/vakantiehuisMaas/20250505_091759.webp",
+      "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/20240827_130503.webp",
+      "/vakantiehuisMaas/20250502_104112.webp",
+      "/vakantiehuisMaas/20250502_121323.webp"
     ]
   },
 };
@@ -114,9 +114,9 @@ export default function ProjectDetail() {
         style={{
           backgroundImage: `url(${
             id === "vakantiehuisMaas"
-              ? "/vakantiehuisMaas/20240827_100219.jpg"
+              ? "/vakantiehuisMaas/20240827_100219.webp"
               : id === "zondagsschool"
-              ? "/Zondagschoolfotos/mastenstraatheader.jpg"
+              ? "/Zondagschoolfotos/mastenstraatheader.webp"
               : project.coverImage
           })`,
         }}
@@ -174,13 +174,13 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.JPG",
-                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.JPG",
-                    "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.JPG"
+                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
+                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
+                    "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
                       alt="Vakantiehuis voor verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
@@ -191,16 +191,16 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/20240827_130503.jpg",
-                    "/vakantiehuisMaas/20250505_091759.jpg",
-                    "/vakantiehuisMaas/20250502_103131.jpg",
-                    "/vakantiehuisMaas/20250502_120715.jpg",
-                    "/vakantiehuisMaas/20250502_121323.jpg",
-                    "/vakantiehuisMaas/20250502_104112.jpg"
+                    "/vakantiehuisMaas/20240827_130503.webp",
+                    "/vakantiehuisMaas/20250505_091759.webp",
+                    "/vakantiehuisMaas/20250502_103131.webp",
+                    "/vakantiehuisMaas/20250502_120715.webp",
+                    "/vakantiehuisMaas/20250502_121323.webp",
+                    "/vakantiehuisMaas/20250502_104112.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
                       alt="Vakantiehuis na verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
@@ -214,7 +214,7 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/Zondagschoolfotos/Voor/vd Mastenstraat voor.jpg",
+                    "/Zondagschoolfotos/Voor/vd Mastenstraat voor.webp",
                     "/Zondagschoolfotos/Voor/voor1.JPG",
                     "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (11).jpg",
                     "/Zondagschoolfotos/Voor/vd Mastenstraat vóór (9).jpg",
@@ -223,7 +223,7 @@ export default function ProjectDetail() {
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
                       alt="Zondagsschool voor verbouwing"
                       className={
                         index === 0
@@ -260,7 +260,7 @@ export default function ProjectDetail() {
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
                       alt="Zondagsschool na verbouwing"
                       className={
                         image === "/Zondagschoolfotos/Na/_R6_0173 langer 2 © Barbra Verbij klein.jpg"
@@ -289,7 +289,7 @@ export default function ProjectDetail() {
               ].map((image, index) => (
                 <img 
                   key={index} 
-                  src={image} 
+                  src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")} 
                   alt="Impressie Woonark" 
                   className={`w-full shadow-md ${
                     index < 3 
@@ -303,7 +303,7 @@ export default function ProjectDetail() {
                 "/brandweerkazernefotos/IMG-20200730-WA0003.jpg",
                 "/brandweerkazernefotos/20200730_105546.jpg",
               ].map((image, index) => (
-                <img key={index} src={image} alt="Impressie Brandweerkazerne" className="w-full h-auto shadow-md" />
+                <img key={index} src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")} alt="Impressie Brandweerkazerne" className="w-full h-auto shadow-md" />
               ))}
               {/* Extra WhatsApp foto's */}
               {id === "brandweerkazerne" && [
@@ -314,7 +314,7 @@ export default function ProjectDetail() {
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.45_960fc76a.jpg",
                 "/brandweerkazernefotos/Afbeelding van WhatsApp op 2025-05-16 om 17.01.46_eabe12a5.jpg"
               ].map((image, index) => (
-                <img key={"whatsapp-"+index} src={image} alt="Impressie Brandweerkazerne extra" className="w-full h-auto shadow-md" />
+                <img key={"whatsapp-"+index} src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")} alt="Impressie Brandweerkazerne extra" className="w-full h-auto shadow-md" />
               ))}
             </div>
           )}

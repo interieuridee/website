@@ -53,7 +53,7 @@ export default function Contact() {
             
             <div className="flex justify-center lg:justify-start">
               <img 
-                src="/lovable-uploads/guusje bosman.png"
+                src="/lovable-uploads/guusje bosman.webp"
                 alt="Guusje Bosman" 
                 className="w-auto h-auto max-w-[300px] rounded-lg"
               />

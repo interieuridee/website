@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/interieur-idee logo.png" 
+            src="/lovable-uploads/interieur-idee logo.webp" 
             alt="Interieur-Idee Logo" 
             className="h-8 md:h-10"
           />

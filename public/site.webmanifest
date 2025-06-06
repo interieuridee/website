@@ -3,12 +3,12 @@
   "short_name": "Interieur-Idee",
   "icons": [
     {
-      "src": "/lovable-uploads/interieur%20idee%20favicon.png",
+      "src": "/lovable-uploads/interieur%20idee%20favicon.webp",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/lovable-uploads/interieur%20idee%20favicon.png",
+      "src": "/lovable-uploads/interieur%20idee%20favicon.webp",
       "sizes": "512x512",
       "type": "image/png"
     }

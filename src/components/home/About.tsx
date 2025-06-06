@@ -38,7 +38,7 @@ export default function About() {
           </div>
           <div className="flex justify-center items-center">
             <div className="relative w-[300px] bg-cover bg-center" style={{
-              backgroundImage: "url('/lovable-uploads/fotoss/_R6_0224 © Barbra Verbij klein.jpg')",
+              backgroundImage: "url('/lovable-uploads/fotoss/_R6_0224 © Barbra Verbij klein.webp')",
               aspectRatio: "9 / 16"
             }}>
               <div className="absolute bottom-2 right-2 text-white text-xs italic drop-shadow" style={{pointerEvents: 'none'}}>
