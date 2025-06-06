@@ -11,8 +11,11 @@ import Projecten from "./pages/Projecten";
 import ProjectDetail from "./pages/ProjectDetail";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import { Analytics } from "@vercel/analytics/react";
+
 const queryClient = new QueryClient();
-const App = () => <QueryClientProvider client={queryClient}>
+const App = () => (
+  <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
@@ -31,12 +34,25 @@ const App = () => <QueryClientProvider client={queryClient}>
           </main>
           <Footer />
         </div>
-        
+
         {/* Floating WhatsApp Button */}
-        <a href="https://wa.me/31654994964" target="_blank" rel="noopener noreferrer" className="whatsapp-button" aria-label="Contact via WhatsApp">
-          <img src="/lovable-uploads/icons8-whatsapp.svg" alt="WhatsApp" width="24" height="24" />
+        <a
+          href="https://wa.me/31654994964"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-button"
+          aria-label="Contact via WhatsApp"
+        >
+          <img
+            src="/lovable-uploads/icons8-whatsapp.svg"
+            alt="WhatsApp"
+            width="24"
+            height="24"
+          />
         </a>
+        <Analytics />
       </BrowserRouter>
     </TooltipProvider>
-  </QueryClientProvider>;
+  </QueryClientProvider>
+);
 export default App;
