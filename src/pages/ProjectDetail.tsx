@@ -335,9 +335,9 @@ export default function ProjectDetail() {
         <section className="section bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-              <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full h-[500px] object-contain bg-white rounded-lg" />
-              <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full h-[500px] object-contain bg-white rounded-lg" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
+              <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
+              <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
             </div>
           </div>
         </section>
