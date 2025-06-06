@@ -336,8 +336,8 @@ export default function ProjectDetail() {
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
-              <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full max-w-md h-auto rounded-lg" />
-              <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full max-w-md h-auto rounded-lg" />
+              <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full max-w-2xl h-auto rounded-lg" style={{maxHeight: 520}} />
+              <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full max-w-2xl h-auto rounded-lg" style={{maxHeight: 520}} />
             </div>
           </div>
         </section>
