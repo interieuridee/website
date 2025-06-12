@@ -35,7 +35,7 @@ const projectData = {
   "penthousedenhaag": {
     title: "Penthouse Den Haag",
     subtitle: "Herindeling en renovatie jaren 70 appartement",
-    coverImage: "/penthousedenhaag/voor/headerenprojectkaart/projectkaartafbeelding penthouse.jpg",
+    coverImage: "/public/penthousedenhaag/headerenprojectkaart/headerpenthouse.webp",
     description: `Een 3 kamer Penthouse uit de jaren 70 was in oorspronkelijke
 staat en werd verkocht door de eerste bewoner.
 Het appartement is verbouwd tot een eigentijdse woning voor 1
@@ -59,16 +59,16 @@ slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kree
       oppervlak: "121 m2"
     },
     impressies: [
-      "/penthousedenhaag/voor/voor/4 oud.jpg",
-      "/penthousedenhaag/voor/voor/5 oud.jpg",
-      "/penthousedenhaag/voor/voor/6 oud.jpg",
-      "/penthousedenhaag/voor/na/1.jpg",
-      "/penthousedenhaag/voor/na/2.jpg",
-      "/penthousedenhaag/voor/na/3.jpg",
-      "/penthousedenhaag/voor/na/4.jpg",
-      "/penthousedenhaag/voor/na/5.jpg",
-      "/penthousedenhaag/voor/na/6.jpg",
-      "/penthousedenhaag/voor/plattegronden/plattegrond na.png"
+      "public/penthousedenhaag/voor/4oud.webp",
+      "/penthousedenhaag/voor/voor/5 oud.webp",
+      "/penthousedenhaag/voor/voor/6 oud.webp",
+      "/penthousedenhaag/voor/na/1.webp",
+      "/penthousedenhaag/voor/na/2.webp",
+      "/penthousedenhaag/voor/na/3.webp",
+      "/penthousedenhaag/voor/na/4.webp",
+      "/penthousedenhaag/voor/na/5.webp",
+      "/penthousedenhaag/voor/na/6.webp",
+      "/penthousedenhaag/voor/plattegronden/plattegrond na.webp"
     ],
     review: {
       text: `Review van de opdrachtgever:
@@ -231,14 +231,14 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
-                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
-                    "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp"
+                    "/penthousedenhaag/headerenprojectkaart/voor/1.webp",
+                    "/penthousedenhaag/headerenprojectkaart/voor/2.webp",
+                    "/penthousedenhaag/headerenprojectkaart/voor/3.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
-                      alt="Vakantiehuis voor verbouwing"
+                      src={image}
+                      alt="Penthouse Den Haag voor verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
@@ -248,17 +248,17 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/vakantiehuisMaas/20240827_130503.webp",
-                    "/vakantiehuisMaas/20250505_091759.webp",
-                    "/vakantiehuisMaas/20250502_103131.webp",
-                    "/vakantiehuisMaas/20250502_120715.webp",
-                    "/vakantiehuisMaas/20250502_121323.webp",
-                    "/vakantiehuisMaas/20250502_104112.webp"
+                    "/penthousedenhaag/headerenprojectkaart/na/1.webp",
+                    "/penthousedenhaag/headerenprojectkaart/na/2.webp",
+                    "/penthousedenhaag/headerenprojectkaart/na/3.webp",
+                    "/penthousedenhaag/headerenprojectkaart/na/4.webp",
+                    "/penthousedenhaag/headerenprojectkaart/na/5.webp",
+                    "/penthousedenhaag/headerenprojectkaart/na/6.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
-                      alt="Vakantiehuis na verbouwing"
+                      src={image}
+                      alt="Penthouse Den Haag na verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
