@@ -59,16 +59,18 @@ slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kree
       oppervlak: "121 m2"
     },
     impressies: [
-      "public/penthousedenhaag/voor/4oud.webp",
-      "/penthousedenhaag/voor/voor/5 oud.webp",
-      "/penthousedenhaag/voor/voor/6 oud.webp",
-      "/penthousedenhaag/voor/na/1.webp",
-      "/penthousedenhaag/voor/na/2.webp",
-      "/penthousedenhaag/voor/na/3.webp",
-      "/penthousedenhaag/voor/na/4.webp",
-      "/penthousedenhaag/voor/na/5.webp",
-      "/penthousedenhaag/voor/na/6.webp",
-      "/penthousedenhaag/voor/plattegronden/plattegrond na.webp"
+      "/penthousedenhaag/voor/1oud.webp",
+      "/penthousedenhaag/voor/2oud.webp",
+      "/penthousedenhaag/voor/3oud.webp",
+      "/penthousedenhaag/voor/4oud.webp",
+      "/penthousedenhaag/voor/5oud.webp",
+      "/penthousedenhaag/voor/6oud.webp",
+      "/penthousedenhaag/na/1.webp",
+      "/penthousedenhaag/na/2.webp",
+      "/penthousedenhaag/na/3.webp",
+      "/penthousedenhaag/na/4.webp",
+      "/penthousedenhaag/na/5.webp",
+      "/penthousedenhaag/na/6.webp"
     ],
     review: {
       text: `Review van de opdrachtgever:
@@ -225,15 +227,18 @@ export default function ProjectDetail() {
       <section className="section bg-cream">
         <div className="container-custom">
           <h2 className="text-3xl font-serif mb-8 text-left">Impressie</h2>
-          {id === "vakantiehuisMaas" ? (
+          {id === "penthousedenhaag" ? (
             <div className="space-y-12">
               <div>
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/penthousedenhaag/headerenprojectkaart/voor/1.webp",
-                    "/penthousedenhaag/headerenprojectkaart/voor/2.webp",
-                    "/penthousedenhaag/headerenprojectkaart/voor/3.webp"
+                    "/penthousedenhaag/voor/1oud.webp",
+                    "/penthousedenhaag/voor/2oud.webp",
+                    "/penthousedenhaag/voor/3oud.webp",
+                    "/penthousedenhaag/voor/4oud.webp",
+                    "/penthousedenhaag/voor/5oud.webp",
+                    "/penthousedenhaag/voor/6oud.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
@@ -248,12 +253,12 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/penthousedenhaag/headerenprojectkaart/na/1.webp",
-                    "/penthousedenhaag/headerenprojectkaart/na/2.webp",
-                    "/penthousedenhaag/headerenprojectkaart/na/3.webp",
-                    "/penthousedenhaag/headerenprojectkaart/na/4.webp",
-                    "/penthousedenhaag/headerenprojectkaart/na/5.webp",
-                    "/penthousedenhaag/headerenprojectkaart/na/6.webp"
+                    "/penthousedenhaag/na/1.webp",
+                    "/penthousedenhaag/na/2.webp",
+                    "/penthousedenhaag/na/3.webp",
+                    "/penthousedenhaag/na/4.webp",
+                    "/penthousedenhaag/na/5.webp",
+                    "/penthousedenhaag/na/6.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
@@ -265,7 +270,7 @@ export default function ProjectDetail() {
                 </div>
               </div>
             </div>
-          ) : id === "zondagsschool" ? (
+          ) : id === "vakantiehuisMaas" ? (
             <div className="space-y-12">
               <div>
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
@@ -386,6 +391,27 @@ export default function ProjectDetail() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
               <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
               <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Plattegronden voor penthousedenhaag */}
+      {id === "penthousedenhaag" && (
+        <section className="section bg-white">
+          <div className="container-custom">
+            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <img 
+                src="/penthousedenhaag/plattegronden/plattegrondvoor.webp" 
+                alt="Plattegrond Penthouse Den Haag Voor" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white rounded-lg" 
+              />
+              <img 
+                src="/penthousedenhaag/plattegronden/plattegrondna.webp" 
+                alt="Plattegrond Penthouse Den Haag Na" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white rounded-lg" 
+              />
             </div>
           </div>
         </section>

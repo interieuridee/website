@@ -32,7 +32,7 @@ const projects = [
 		id: "penthousedenhaag",
 		title: "Penthouse Den Haag",
 		category: "VERBOUWING",
-		imageUrl: "public/penthousedenhaag/headerenprojectkaart/projectkaartafbeeldingpenthouse.webp",
+		imageUrl: "/penthousedenhaag/headerenprojectkaart/projectkaartafbeeldingpenthouse.webp",
 	},
 ];
 
