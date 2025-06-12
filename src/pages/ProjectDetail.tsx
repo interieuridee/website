@@ -35,7 +35,7 @@ const projectData = {
   "penthousedenhaag": {
     title: "Penthouse Den Haag",
     subtitle: "Herindeling en renovatie jaren 70 appartement",
-    coverImage: "/public/penthousedenhaag/headerenprojectkaart/headerpenthouse.webp",
+    coverImage: "/penthousedenhaag/headerenprojectkaart/headerpenthouse.webp",
     description: `Een 3 kamer Penthouse uit de jaren 70 was in oorspronkelijke
 staat en werd verkocht door de eerste bewoner.
 Het appartement is verbouwd tot een eigentijdse woning voor 1
