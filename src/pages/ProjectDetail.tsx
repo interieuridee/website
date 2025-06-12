@@ -401,69 +401,21 @@ export default function ProjectDetail() {
         <section className="section bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex flex-col md:flex-row gap-8">
               <img 
                 src="/penthousedenhaag/plattegronden/plattegrondvoor.webp" 
                 alt="Plattegrond Penthouse Den Haag Voor" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white rounded-lg" 
+                className="w-full md:w-1/2 h-[600px] object-contain bg-white rounded-lg" 
               />
               <img 
                 src="/penthousedenhaag/plattegronden/plattegrondna.webp" 
                 alt="Plattegrond Penthouse Den Haag Na" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white rounded-lg" 
+                className="w-full md:w-1/2 h-[600px] object-contain bg-white rounded-lg" 
               />
             </div>
           </div>
         </section>
       )}
-      
-      {/* Plattegronden voor woonark */}
-      {id === "woonark" && (
-        <section className="section bg-white">
-          <div className="container-custom">
-            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <img 
-                src="/plattegronden/woonarkafbeelding1.webp" 
-                alt="Plattegrond Woonark 1" 
-                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
-              />
-              <img 
-                src="/plattegronden/woonarkafbeelding2.webp" 
-                alt="Plattegrond Woonark 2" 
-                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
-              />
-              <img 
-                src="/plattegronden/woonarkafbeelding3.webp" 
-                alt="Plattegrond Woonark 3" 
-                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
-              />
-            </div>
-          </div>
-        </section>
-      )}
-      
-      {/* Plattegronden voor vakantiehuisMaas */}
-      {id === "vakantiehuisMaas" && (
-        <section className="section bg-white">
-          <div className="container-custom">
-            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <img 
-                src="/plattegronden/plattegrondvakantiehuis2.webp" 
-                alt="Plattegrond Vakantiehuis aan de Maas 2" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
-              />
-              <img 
-                src="/plattegronden/plattegrondvakantiehuis1.webp" 
-                alt="Plattegrond Vakantiehuis aan de Maas 1" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
-              />
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* Review for penthousedenhaag */}
       {id === "penthousedenhaag" && project.review && (
         <section className="section bg-white">
@@ -475,7 +427,6 @@ export default function ProjectDetail() {
           </div>
         </section>
       )}
-      
       {/* WhatsApp Button */}
       <a 
         href={`https://wa.me/31654994964`} 
