@@ -28,6 +28,12 @@ const projects = [
 		category: "Herindeling",
 		imageUrl: "/vakantiehuisMaas/20240827_100219.webp",
 	},
+	{
+		id: "penthousedenhaag",
+		title: "Penthouse Den Haag",
+		category: "VERBOUWING",
+		imageUrl: "/penthousedenhaag/voor/headerenprojectkaart/projectkaartafbeelding penthouse.jpg",
+	},
 ];
 
 export default function Projecten() {

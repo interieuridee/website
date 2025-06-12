@@ -32,6 +32,54 @@ const projectData = {
       "/Zondagschoolfotos/vd Mastensraat na .webp"
     ]
   },
+  "penthousedenhaag": {
+    title: "Penthouse Den Haag",
+    subtitle: "Herindeling en renovatie jaren 70 appartement",
+    coverImage: "/penthousedenhaag/voor/headerenprojectkaart/projectkaartafbeelding penthouse.jpg",
+    description: `Een 3 kamer Penthouse uit de jaren 70 was in oorspronkelijke
+staat en werd verkocht door de eerste bewoner.
+Het appartement is verbouwd tot een eigentijdse woning voor 1
+persoon.`,
+    challenge: `Bij binnenkomst kwam je in een wat donkere hal. Het penthouse
+heeft ongeveer dezelfde indeling als de onderliggende
+appartementen, maar is aan de voor- en achterzijde 1 meter
+korter, om plaats te maken voor de balkons. Hierdoor was de
+keuken en één van de slaapkamers wel erg krap.`,
+    solution: `Om meer licht in de entreehal te brengen kreeg de hal een
+glazen wand naar de keuken op het extra brede aanrechtblad
+dat doorloopt in de hal als dressoir. Hierdoor komt er daglicht in
+de hal en lijkt de keuken ruimtelijker. De dubbele deuren van de
+hal naar de zitkamer zijn verwijderd. Verder is de deuropening
+van de keuken naar de eetkamer breder gemaakt en het
+keukenblad loopt iets de kamer in.
+De badkamer is verkleind en de gang verwijderd, waardoor de
+slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kreeg een nieuwe toegang via de zitkamer.`,
+    details: {
+      locatie: "Den Haag, Benoordenhout",
+      oppervlak: "121 m2"
+    },
+    impressies: [
+      "/penthousedenhaag/voor/voor/4 oud.jpg",
+      "/penthousedenhaag/voor/voor/5 oud.jpg",
+      "/penthousedenhaag/voor/voor/6 oud.jpg",
+      "/penthousedenhaag/voor/na/1.jpg",
+      "/penthousedenhaag/voor/na/2.jpg",
+      "/penthousedenhaag/voor/na/3.jpg",
+      "/penthousedenhaag/voor/na/4.jpg",
+      "/penthousedenhaag/voor/na/5.jpg",
+      "/penthousedenhaag/voor/na/6.jpg",
+      "/penthousedenhaag/voor/plattegronden/plattegrond na.png"
+    ],
+    review: {
+      text: `Review van de opdrachtgever:
+“
+Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
+buitenruimte. Guusje heeft niet alleen deze flat voor mij gevonden, maar ook de renovatie op zich genomen 
+met haar team. Samen hebben wij de indeling bedacht zoals hij nu is. Zonder de hulp en toewijding van 
+Guusje zou mijn flat geen paleis(je) zijn geworden.”
+Theda`
+    }
+  },
   "woonark": {
     title: "Woonark in het Spaarne",
     subtitle: "Nieuw ontworpen woonark met twee lagen",
