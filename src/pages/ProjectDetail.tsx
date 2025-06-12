@@ -437,6 +437,18 @@ export default function ProjectDetail() {
           </div>
         </section>
       )}
+
+      {/* Review for penthousedenhaag */}
+      {id === "penthousedenhaag" && project.review && (
+        <section className="section bg-white">
+          <div className="container-custom max-w-3xl mx-auto">
+            <h2 className="text-3xl font-serif mb-8 text-left">Review van de opdrachtgever</h2>
+            <blockquote className="border-l-4 border-gray-400 pl-6 italic text-lg text-gray-700">
+              {project.review.text}
+            </blockquote>
+          </div>
+        </section>
+      )}
       
       {/* WhatsApp Button */}
       <a 
