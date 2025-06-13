@@ -73,9 +73,8 @@ slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kree
       "/penthousedenhaag/na/6.webp"
     ],
     review: {
-      text: `Review van de opdrachtgever:
-“
-Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
+      text: `
+“Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
 buitenruimte. Guusje heeft niet alleen deze flat voor mij gevonden, maar ook de renovatie op zich genomen 
 met haar team. Samen hebben wij de indeling bedacht zoals hij nu is. Zonder de hulp en toewijding van 
 Guusje zou mijn flat geen paleis(je) zijn geworden.”
