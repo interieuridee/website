@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import SectionTitle from "@/components/shared/SectionTitle";
 import { useIsMobile } from "@/hooks/use-mobile";
-import Quote from "@/components/shared/Quote";
 
 // Project data
 const projectData = {
@@ -31,6 +30,57 @@ const projectData = {
       "/Zondagschoolfotos/mastenstraatheader.webp",
       "/Zondagschoolfotos/DSC_7332.webp",
       "/Zondagschoolfotos/vd Mastensraat na .webp"
+    ]
+  },
+  "woonark": {
+    title: "Woonark in het Spaarne",
+    subtitle: "Nieuw ontworpen woonark met twee lagen",
+    coverImage: "/woonarkfotos/woonarkheader.webp",
+    description: `Voor deze nieuwe woonark ontwierpen we een licht en open alternatief ter vervanging van een oudere ark met vaste maximale afmetingen. Het nieuwe ontwerp speelt in op de wens voor een licht, ruimtelijk en flexibel geheel.`,
+    challenge: `Hoewel de ark bedoeld is voor één persoon, bleek een twee-laagse opzet financieel gunstiger. De wens was een ruimtelijk, loftachtig gevoel en geen gang met kleine kamers. Functionele eisen waren o.a. een entree op kadeniveau, een terras maximaal 40 cm boven het water en een directe verbinding tussen eetkamer en terras.`,
+    solution: `Door verschillende niveaus te laten verspringen met telkens 40 cm, ontstonden logische overgangen. De entree en slaapkamer op kadeniveau, keuken en terras iets lager, de zitkamer op waterniveau. Beneden wordt twee derde van de ruimte benut als woonverdieping, de rest als berging. Beneden zijn de ramen in de slaapkamers boven het betonnen casco geplaatst, wat resulteert in verhoogde kozijnen met daglichttoetreding van bovenaf. De uitspringende koven die hierdoor boven ontstaan, worden daar als zitbanken gebruikt. De indeling is flexibel, twee slaapkamers zijn eenvoudig samen te voegen tot één royale ruimte.`,
+    details: {
+      locatie: "Haarlem, Spaarne",
+      jaar: "2021",
+      oppervlak: "150 m2"
+    }
+  },
+  "brandweerkazerne": {
+    title: "Projectinrichting en kleuradvies brandweerkazerne",
+    subtitle: "Een tweede thuis op het werk",
+    coverImage: "/brandweerkazernefotos/20250513_132149.webp",
+    description: `Voor de nieuwe kazerne was nog geen kleur- en materiaalplan opgesteld voor het vaste en losse meubilair, evenals de stoffering. De opdracht richtte zich op de inrichting van diverse ruimten, waaronder de entree, zitkamer, woonkeuken, slaapkamers, kantoren en leslokalen.`,
+    challenge: `Binnen de kazerne werken drie teams in ploegendienst. Omdat de kazerne fungeert als hun tweede thuis, was het essentieel dat alle teams zich prettig voelen in de ruimtes ondanks uiteenlopende voorkeuren. Met name het zitcomfort en de robuustheid van de relaxstoelen in de zitkamer waren cruciaal. Daaruit moest men snel kunnen opstaan bij een noodoproep.`,
+    solution: `Door vanaf de start alle teams actief te betrekken bij het ontwerpproces, ontstond er draagvlak voor een gezamenlijke visie. De gekozen kleuren en materialen sloten aan op het bestaande architectonisch ontwerp, zodat een harmonieus geheel ontstond. Na het testen van diverse modellen, kozen de teams unaniem voor een relaxstoel met vier poten en een los voetenbankje, uitgevoerd in vier kleuren kunstleer. Daarnaast kregen persoonlijke elementen een plek in het ontwerp. Ingezonden foto's van medewerkers werden verwerkt tot fotobehang op meerdere locaties in het gebouw.`,
+    details: {
+      locatie: "Rotterdam, RTHA",
+      jaar: "2020",
+      oppervlak: null
+    }
+  },
+  "vakantiehuisMaas": {
+    title: "Vakantiehuis aan de Maas",
+    subtitle: "Verbouwing van chalet op palen",
+    coverImage: "/vakantiehuisMaas/20240827_130503.webp",
+    description: `Een chalet op palen aan de afgedamde maas met 3 slaapplaatsen is verbouwd tot een 4-persoons vakantiehuis door een deel van de berging bij het woongedeelte te trekken.`,
+    challenge: `In de bestaande indeling zat de toegang naar de badkamer in de grotere slaapkamer. In de kleinere slaapkamer kon slechts een 1-persoonsbed staan. De gehele woning had een verlaagd plafond en ademde niet de sfeer uit van wonen aan het water. Er was aan de achterzijde geen toegang tot het terras. Voor de verbouwing was maar een zeer beperkt budget.`,
+    solution: `Door een deel van de naastgelegen berging bij de woning te trekken, kon de grote slaapkamer doorschuiven en de kleine slaapkamer groter gemaakt worden. Deze aanpassing is zodanig uitgevoerd dat de badkamer op de oorspronkelijke locatie kon blijven, maar nu via een gang toegankelijk is. Aan de achterzijde zijn 2e hands openslaande deuren geplaatst. Het verlaagde plafond in de zitkamer/keuken is verwijderd, de keuken vervangen door een iets groter model dat afkomstig is uit een showroomverkoop.`,
+    details: {
+      locatie: "Veen, afgedamde maas",
+      jaar: "2021",
+      oppervlak: "40 m2"
+    },
+    impressies: [
+      "/vakantiehuisMaas/20240827_100219.webp",
+      "/vakantiehuisMaas/20250502_103131.webp",
+      "/vakantiehuisMaas/20250502_120715.webp",
+      "/vakantiehuisMaas/20250505_091759.webp",
+      "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp",
+      "/vakantiehuisMaas/20240827_130503.webp",
+      "/vakantiehuisMaas/20250502_104112.webp",
+      "/vakantiehuisMaas/20250502_121323.webp"
     ]
   },
   "penthousedenhaag": {
@@ -75,64 +125,13 @@ slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kree
     ],
     review: {
       text: `
-“Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
+"Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
 buitenruimte. Guusje heeft niet alleen deze flat voor mij gevonden, maar ook de renovatie op zich genomen 
 met haar team. Samen hebben wij de indeling bedacht zoals hij nu is. Zonder de hulp en toewijding van 
-Guusje zou mijn flat geen paleis(je) zijn geworden.”`,
+Guusje zou mijn flat geen paleis(je) zijn geworden."`,
       author: "Theda"
     }
-  },
-  "woonark": {
-    title: "Woonark in het Spaarne",
-    subtitle: "Nieuw ontworpen woonark met twee lagen",
-    coverImage: "/woonarkfotos/woonarkheader.webp",
-    description: `Voor deze nieuwe woonark ontwierpen we een licht en open alternatief ter vervanging van een oudere ark met vaste maximale afmetingen. Het nieuwe ontwerp speelt in op de wens voor een licht, ruimtelijk en flexibel geheel.`,
-    challenge: `Hoewel de ark bedoeld is voor één persoon, bleek een twee-laagse opzet financieel gunstiger. De wens was een ruimtelijk, loftachtig gevoel en geen gang met kleine kamers. Functionele eisen waren o.a. een entree op kadeniveau, een terras maximaal 40 cm boven het water en een directe verbinding tussen eetkamer en terras.`,
-    solution: `Door verschillende niveaus te laten verspringen met telkens 40 cm, ontstonden logische overgangen. De entree en slaapkamer op kadeniveau, keuken en terras iets lager, de zitkamer op waterniveau. Beneden wordt twee derde van de ruimte benut als woonverdieping, de rest als berging. Beneden zijn de ramen in de slaapkamers boven het betonnen casco geplaatst, wat resulteert in verhoogde kozijnen met daglichttoetreding van bovenaf. De uitspringende koven die hierdoor boven ontstaan, worden daar als zitbanken gebruikt. De indeling is flexibel, twee slaapkamers zijn eenvoudig samen te voegen tot één royale ruimte.`,
-    details: {
-      locatie: "Haarlem, Spaarne",
-      jaar: "2021",
-      oppervlak: "150 m2"
-    }
-  },
-  "brandweerkazerne": {
-    title: "Projectinrichting en kleuradvies brandweerkazerne",
-    subtitle: "Een tweede thuis op het werk",
-    coverImage: "/brandweerkazernefotos/20250513_132149.webp",
-    description: `Voor de nieuwe kazerne was nog geen kleur- en materiaalplan opgesteld voor het vaste en losse meubilair, evenals de stoffering. De opdracht richtte zich op de inrichting van diverse ruimten, waaronder de entree, zitkamer, woonkeuken, slaapkamers, kantoren en leslokalen.`,
-    challenge: `Binnen de kazerne werken drie teams in ploegendienst. Omdat de kazerne fungeert als hun tweede thuis, was het essentieel dat alle teams zich prettig voelen in de ruimtes ondanks uiteenlopende voorkeuren. Met name het zitcomfort en de robuustheid van de relaxstoelen in de zitkamer waren cruciaal. Daaruit moest men snel kunnen opstaan bij een noodoproep.`,
-    solution: `Door vanaf de start alle teams actief te betrekken bij het ontwerpproces, ontstond er draagvlak voor een gezamenlijke visie. De gekozen kleuren en materialen sloten aan op het bestaande architectonisch ontwerp, zodat een harmonieus geheel ontstond. Na het testen van diverse modellen, kozen de teams unaniem voor een relaxstoel met vier poten en een los voetenbankje, uitgevoerd in vier kleuren kunstleer. Daarnaast kregen persoonlijke elementen een plek in het ontwerp. Ingezonden foto’s van medewerkers werden verwerkt tot fotobehang op meerdere locaties in het gebouw.`,
-    details: {
-      locatie: "Rotterdam, RTHA",
-      jaar: "2020",
-      oppervlak: null
-    }
-  },
-  "vakantiehuisMaas": {
-    title: "Vakantiehuis aan de Maas",
-    subtitle: "Verbouwing van chalet op palen",
-    coverImage: "/vakantiehuisMaas/20240827_130503.webp",
-    description: `Een chalet op palen aan de afgedamde maas met 3 slaapplaatsen is verbouwd tot een 4-persoons vakantiehuis door een deel van de berging bij het woongedeelte te trekken.`,
-    challenge: `In de bestaande indeling zat de toegang naar de badkamer in de grotere slaapkamer. In de kleinere slaapkamer kon slechts een 1-persoonsbed staan. De gehele woning had een verlaagd plafond en ademde niet de sfeer uit van wonen aan het water. Er was aan de achterzijde geen toegang tot het terras. Voor de verbouwing was maar een zeer beperkt budget.`,
-    solution: `Door een deel van de naastgelegen berging bij de woning te trekken, kon de grote slaapkamer doorschuiven en de kleine slaapkamer groter gemaakt worden. Deze aanpassing is zodanig uitgevoerd dat de badkamer op de oorspronkelijke locatie kon blijven, maar nu via een gang toegankelijk is. Aan de achterzijde zijn 2e hands openslaande deuren geplaatst. Het verlaagde plafond in de zitkamer/keuken is verwijderd, de keuken vervangen door een iets groter model dat afkomstig is uit een showroomverkoop.`,
-    details: {
-      locatie: "Veen, afgedamde maas",
-      jaar: "2021",
-      oppervlak: "40 m2"
-    },
-    impressies: [
-      "/vakantiehuisMaas/20240827_100219.webp",
-      "/vakantiehuisMaas/20250502_103131.webp",
-      "/vakantiehuisMaas/20250502_120715.webp",
-      "/vakantiehuisMaas/20250505_091759.webp",
-      "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
-      "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
-      "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp",
-      "/vakantiehuisMaas/20240827_130503.webp",
-      "/vakantiehuisMaas/20250502_104112.webp",
-      "/vakantiehuisMaas/20250502_121323.webp"
-    ]
-  },
+  }
 };
 
 export default function ProjectDetail() {
@@ -176,22 +175,15 @@ export default function ProjectDetail() {
               ? "/vakantiehuisMaas/20240827_100219.webp"
               : id === "zondagsschool"
               ? "/Zondagschoolfotos/mastenstraatheader.webp"
+              : id === "penthousedenhaag"
+              ? "/penthousedenhaag/headerenprojectkaart/headerpenthouse.webp"
               : project.coverImage
           })`,
         }}
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="container-custom relative z-10 h-full flex flex-col justify-end pb-8 text-left">
-          <h1 className="text-white text-4xl font-serif mb-2 text-left">
-            {isMobile && id === "penthousedenhaag" ? (
-              <>
-                Penthouse<br />
-                Den Haag
-              </>
-            ) : (
-              project.title
-            )}
-          </h1>
+          <h1 className="text-white text-4xl font-serif mb-2 text-left">{project.title}</h1>
           <p className="text-white text-lg text-left">{project.subtitle}</p>
         </div>
       </section>
@@ -226,6 +218,12 @@ export default function ProjectDetail() {
                     <p>{project.details.oppervlak}</p>
                   </div>
                 )}
+                {project.details.jaar && (
+                  <div>
+                    <p className="text-sm text-gray-500">Jaar</p>
+                    <p>{project.details.jaar}</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -236,23 +234,20 @@ export default function ProjectDetail() {
       <section className="section bg-cream">
         <div className="container-custom">
           <h2 className="text-3xl font-serif mb-8 text-left">Impressie</h2>
-          {id === "penthousedenhaag" ? (
+          {id === "vakantiehuisMaas" ? (
             <div className="space-y-12">
               <div>
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/penthousedenhaag/voor/1oud.webp",
-                    "/penthousedenhaag/voor/2oud.webp",
-                    "/penthousedenhaag/voor/3oud.webp",
-                    "/penthousedenhaag/voor/4oud.webp",
-                    "/penthousedenhaag/voor/5oud.webp",
-                    "/penthousedenhaag/voor/6oud.webp"
+                    "/vakantiehuisMaas/9- Veense Put 262 - 264 Veen.webp",
+                    "/vakantiehuisMaas/10- Veense Put 262 - 264 Veen.webp",
+                    "/vakantiehuisMaas/13- Veense Put 262 - 264 Veen.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
-                      alt="Penthouse Den Haag voor verbouwing"
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
+                      alt="Vakantiehuis voor verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
@@ -262,24 +257,24 @@ export default function ProjectDetail() {
                 <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
-                    "/penthousedenhaag/na/1.webp",
-                    "/penthousedenhaag/na/2.webp",
-                    "/penthousedenhaag/na/3.webp",
-                    "/penthousedenhaag/na/4.webp",
-                    "/penthousedenhaag/na/5.webp",
-                    "/penthousedenhaag/na/6.webp"
+                    "/vakantiehuisMaas/20240827_130503.webp",
+                    "/vakantiehuisMaas/20250505_091759.webp",
+                    "/vakantiehuisMaas/20250502_103131.webp",
+                    "/vakantiehuisMaas/20250502_120715.webp",
+                    "/vakantiehuisMaas/20250502_121323.webp",
+                    "/vakantiehuisMaas/20250502_104112.webp"
                   ].map((image, index) => (
                     <img
                       key={index}
-                      src={image}
-                      alt="Penthouse Den Haag na verbouwing"
+                      src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")}
+                      alt="Vakantiehuis na verbouwing"
                       className="w-full h-[250px] object-cover shadow-md"
                     />
                   ))}
                 </div>
               </div>
             </div>
-          ) : id === "vakantiehuisMaas" ? (
+          ) : id === "zondagsschool" ? (
             <div className="space-y-12">
               <div>
                 <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
@@ -345,6 +340,49 @@ export default function ProjectDetail() {
                 </div>
               </div>
             </div>
+          ) : id === "penthousedenhaag" ? (
+            <div className="space-y-12">
+              <div>
+                <h3 className="text-xl font-medium mb-6 text-left">Voor verbouwing</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {[
+                    "/penthousedenhaag/voor/1oud.webp",
+                    "/penthousedenhaag/voor/2oud.webp",
+                    "/penthousedenhaag/voor/3oud.webp",
+                    "/penthousedenhaag/voor/4oud.webp",
+                    "/penthousedenhaag/voor/5oud.webp",
+                    "/penthousedenhaag/voor/6oud.webp"
+                  ].map((image, index) => (
+                    <img
+                      key={`voor-${index}`}
+                      src={image}
+                      alt="Penthouse Den Haag voor verbouwing"
+                      className="w-full h-[300px] object-cover shadow-md"
+                    />
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 className="text-xl font-medium mb-6 text-left">Na verbouwing</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {[
+                    "/penthousedenhaag/na/1.webp",
+                    "/penthousedenhaag/na/2.webp",
+                    "/penthousedenhaag/na/3.webp",
+                    "/penthousedenhaag/na/4.webp",
+                    "/penthousedenhaag/na/5.webp",
+                    "/penthousedenhaag/na/6.webp"
+                  ].map((image, index) => (
+                    <img
+                      key={`na-${index}`}
+                      src={image}
+                      alt="Penthouse Den Haag na verbouwing"
+                      className="w-full h-[300px] object-cover shadow-md"
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {id === "woonark" && [
@@ -404,6 +442,53 @@ export default function ProjectDetail() {
           </div>
         </section>
       )}
+      
+      {/* Plattegronden voor woonark */}
+      {id === "woonark" && (
+        <section className="section bg-white">
+          <div className="container-custom">
+            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <img 
+                src="/plattegronden/woonarkafbeelding1.webp" 
+                alt="Plattegrond Woonark 1" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/woonarkafbeelding2.webp" 
+                alt="Plattegrond Woonark 2" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/woonarkafbeelding3.webp" 
+                alt="Plattegrond Woonark 3" 
+                className="w-full h-[200px] md:h-[250px] object-contain bg-white" 
+              />
+            </div>
+          </div>
+        </section>
+      )}
+      
+      {/* Plattegronden voor vakantiehuisMaas */}
+      {id === "vakantiehuisMaas" && (
+        <section className="section bg-white">
+          <div className="container-custom">
+            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <img 
+                src="/plattegronden/plattegrondvakantiehuis2.webp" 
+                alt="Plattegrond Vakantiehuis aan de Maas 2" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
+              <img 
+                src="/plattegronden/plattegrondvakantiehuis1.webp" 
+                alt="Plattegrond Vakantiehuis aan de Maas 1" 
+                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Plattegronden voor penthousedenhaag */}
       {id === "penthousedenhaag" && (
@@ -425,6 +510,7 @@ export default function ProjectDetail() {
           </div>
         </section>
       )}
+
       {/* Review for penthousedenhaag */}
       {id === "penthousedenhaag" && project.review && (
         <section className="section bg-white">
@@ -456,6 +542,7 @@ export default function ProjectDetail() {
           </div>
         </section>
       )}
+      
       {/* WhatsApp Button */}
       <a 
         href={`https://wa.me/31654994964`} 
