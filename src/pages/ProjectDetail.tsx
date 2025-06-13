@@ -401,7 +401,7 @@ export default function ProjectDetail() {
         <section className="section bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-8">
               <img 
                 src="/penthousedenhaag/plattegronden/plattegrondvoor.webp" 
                 alt="Plattegrond Penthouse Den Haag Voor" 
