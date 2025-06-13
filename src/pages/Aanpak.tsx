@@ -51,7 +51,7 @@ export default function Aanpak() {
                 </p>
               </div>
               <div className="flex flex-col">
-                <div className="h-[500px] bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/lovable-uploads/aanpakinterieur.webp')" }}></div>
+<div className="h-[300px] md:h-[500px] bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/lovable-uploads/aanpakinterieur.webp')" }}></div>
               </div>
             </div>
           </div>
