@@ -11,7 +11,7 @@ export default function SectionTitle({
   alignment = "left",
   className
 }: SectionTitleProps) {
-  return <div className={cn("mb-12", {
+  return <div className={cn("pt-12 mb-12", {
     "text-left": alignment === "left",
     "text-center": alignment === "center",
     "text-right": alignment === "right"
