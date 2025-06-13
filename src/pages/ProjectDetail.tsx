@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import SectionTitle from "@/components/shared/SectionTitle";
 import { useIsMobile } from "@/hooks/use-mobile";
+import Quote from "@/components/shared/Quote";
 
 // Project data
 const projectData = {
@@ -77,8 +78,8 @@ slaapkamer ruimer geworden is en er plaats is voor kastruimte. De werkkamer kree
 “Ik kwam in contact met Guusje door een appartement wat zij geflipt had, maar ik zocht iets met meer 
 buitenruimte. Guusje heeft niet alleen deze flat voor mij gevonden, maar ook de renovatie op zich genomen 
 met haar team. Samen hebben wij de indeling bedacht zoals hij nu is. Zonder de hulp en toewijding van 
-Guusje zou mijn flat geen paleis(je) zijn geworden.”
-Theda`
+Guusje zou mijn flat geen paleis(je) zijn geworden.”`,
+      author: "Theda"
     }
   },
   "woonark": {
@@ -419,10 +420,30 @@ export default function ProjectDetail() {
       {id === "penthousedenhaag" && project.review && (
         <section className="section bg-white">
           <div className="container-custom max-w-3xl mx-auto">
-            <h2 className="text-3xl font-serif mb-8 text-left">Review van de opdrachtgever</h2>
-            <blockquote className="border-l-4 border-gray-400 pl-6 italic text-lg text-gray-700">
-              {project.review.text}
-            </blockquote>
+            <h2 className="text-3xl font-serif mb-8 text-center">Review van de opdrachtgever</h2>
+            <div className="bg-white p-6 lg:p-8 rounded-lg shadow-md h-full relative">
+              <div className="flex flex-col h-full relative">
+                {/* Quote mark */}
+                <div className="absolute -left-1 -top-4">
+                  <span className="text-7xl font-serif text-taupe opacity-80">"</span>
+                </div>
+                {/* Review text */}
+                <div className="flex-grow relative z-10 pt-8">
+                  <p className="text-gray-700 text-sm lg:text-base leading-relaxed whitespace-pre-line">
+                    {project.review.text}
+                  </p>
+                </div>
+                {/* Author section */}
+                <div className="mt-4 flex items-center gap-3 pt-4 border-t border-gray-100">
+                  <div className="w-10 h-10 rounded-full bg-taupe flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="font-serif text-base font-bold text-charcoal">{project.review.author}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       )}
