@@ -182,7 +182,16 @@ export default function ProjectDetail() {
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="container-custom relative z-10 h-full flex flex-col justify-end pb-8 text-left">
-          <h1 className="text-white text-4xl font-serif mb-2 text-left">{project.title}</h1>
+          <h1 className="text-white text-4xl font-serif mb-2 text-left">
+            {isMobile && id === "penthousedenhaag" ? (
+              <>
+                Penthouse<br />
+                Den Haag
+              </>
+            ) : (
+              project.title
+            )}
+          </h1>
           <p className="text-white text-lg text-left">{project.subtitle}</p>
         </div>
       </section>
