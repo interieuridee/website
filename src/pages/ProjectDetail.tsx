@@ -405,12 +405,12 @@ export default function ProjectDetail() {
               <img 
                 src="/penthousedenhaag/plattegronden/plattegrondvoor.webp" 
                 alt="Plattegrond Penthouse Den Haag Voor" 
-                className="w-full md:w-1/2 h-[600px] object-contain bg-white rounded-lg" 
+                className="w-full md:w-1/2 h-[400px] md:h-[600px] object-contain bg-white rounded-lg" 
               />
               <img 
                 src="/penthousedenhaag/plattegronden/plattegrondna.webp" 
                 alt="Plattegrond Penthouse Den Haag Na" 
-                className="w-full md:w-1/2 h-[600px] object-contain bg-white rounded-lg" 
+                className="w-full md:w-1/2 h-[400px] md:h-[600px] object-contain bg-white rounded-lg" 
               />
             </div>
           </div>
@@ -440,7 +440,7 @@ export default function ProjectDetail() {
                       <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <p className="font-serif text-base font-bold text-charcoal">{project.review.author}</p>
+                  <p className="font-serif text-base text-charcoal">{project.review.author}</p>
                 </div>
               </div>
             </div>
