@@ -15,7 +15,6 @@ const projectData = {
     solution: `Er zijn extra ramen in de zijgevel en dak geplaatst en de trap is centraal in de woning gebracht, wat een open indeling boven mogelijk maakte. De overloop fungeert nu als tweede zitkamer. Het verlaagde plafond is verwijderd en het dak is van buitenaf geïsoleerd, waardoor het originele dakbeschot zichtbaar is gebleven. Alle ramen en vloeren zijn vernieuwd en geïsoleerd. Op de begane grond is een nieuwe entree aan de straatzijde gerealiseerd, wat het pand een duidelijker aanzicht geeft. Tot slot zijn de stoeptegels in de tuin deels vervangen door gras, en zijn er tussenliggend klinkertjes geplaatst.`,
     details: {
       locatie: "Delft, centrum",
-      jaar: "2013",
       oppervlak: "200 m2"
     },
     impressies: [
@@ -41,7 +40,6 @@ const projectData = {
     solution: `Door verschillende niveaus te laten verspringen met telkens 40 cm, ontstonden logische overgangen. De entree en slaapkamer op kadeniveau, keuken en terras iets lager, de zitkamer op waterniveau. Beneden wordt twee derde van de ruimte benut als woonverdieping, de rest als berging. Beneden zijn de ramen in de slaapkamers boven het betonnen casco geplaatst, wat resulteert in verhoogde kozijnen met daglichttoetreding van bovenaf. De uitspringende koven die hierdoor boven ontstaan, worden daar als zitbanken gebruikt. De indeling is flexibel, twee slaapkamers zijn eenvoudig samen te voegen tot één royale ruimte.`,
     details: {
       locatie: "Haarlem, Spaarne",
-      jaar: "2021",
       oppervlak: "150 m2"
     }
   },
@@ -54,7 +52,6 @@ const projectData = {
     solution: `Door vanaf de start alle teams actief te betrekken bij het ontwerpproces, ontstond er draagvlak voor een gezamenlijke visie. De gekozen kleuren en materialen sloten aan op het bestaande architectonisch ontwerp, zodat een harmonieus geheel ontstond. Na het testen van diverse modellen, kozen de teams unaniem voor een relaxstoel met vier poten en een los voetenbankje, uitgevoerd in vier kleuren kunstleer. Daarnaast kregen persoonlijke elementen een plek in het ontwerp. Ingezonden foto's van medewerkers werden verwerkt tot fotobehang op meerdere locaties in het gebouw.`,
     details: {
       locatie: "Rotterdam, RTHA",
-      jaar: "2020",
       oppervlak: null
     }
   },
@@ -67,7 +64,6 @@ const projectData = {
     solution: `Door een deel van de naastgelegen berging bij de woning te trekken, kon de grote slaapkamer doorschuiven en de kleine slaapkamer groter gemaakt worden. Deze aanpassing is zodanig uitgevoerd dat de badkamer op de oorspronkelijke locatie kon blijven, maar nu via een gang toegankelijk is. Aan de achterzijde zijn 2e hands openslaande deuren geplaatst. Het verlaagde plafond in de zitkamer/keuken is verwijderd, de keuken vervangen door een iets groter model dat afkomstig is uit een showroomverkoop.`,
     details: {
       locatie: "Veen, afgedamde maas",
-      jaar: "2021",
       oppervlak: "40 m2"
     },
     impressies: [
