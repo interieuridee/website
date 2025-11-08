@@ -5,7 +5,30 @@ import SectionTitle from "@/components/shared/SectionTitle";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 // Project data
-const projectData = {
+interface ProjectReview {
+  text: string;
+  author: string;
+}
+
+interface Project {
+  title: string;
+  subtitle: string;
+  coverImage: string;
+  description: string;
+  challenge: string;
+  solution: string;
+  details: {
+    locatie: string;
+    oppervlak: string | null;
+  };
+  beforeImages?: string[];
+  afterImages?: string[];
+  floorplans?: string[];
+  impressies?: string[];
+  review?: ProjectReview;
+}
+
+const projectData: Record<string, Project> = {
   "woonhuis1910": {
     title: "Woonhuis Delft 1910",
     subtitle: "Herindeling begane grond",
@@ -253,12 +276,6 @@ export default function ProjectDetail() {
                     <p>{project.details.oppervlak}</p>
                   </div>
                 )}
-                {project.details.jaar && (
-                  <div>
-                    <p className="text-sm text-gray-500">Jaar</p>
-                    <p>{project.details.jaar}</p>
-                  </div>
-                )}
               </div>
             </div>
           </div>
@@ -386,6 +403,8 @@ export default function ProjectDetail() {
                       src={image}
                       alt="Woonhuis voor verbouwing"
                       className="w-full aspect-square object-cover shadow-md"
+                      loading="lazy"
+                      decoding="async"
                     />
                   ))}
                 </div>
@@ -476,7 +495,13 @@ export default function ProjectDetail() {
                 "/brandweerkazernefotos/IMG-20200730-WA0003.jpg",
                 "/brandweerkazernefotos/20200730_105546.jpg",
               ].map((image, index) => (
-                <img key={index} src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")} alt="Impressie Brandweerkazerne" className="w-full h-auto shadow-md" />
+                <img 
+                  key={index} 
+                  src={image.replace(/\.(jpg|jpeg|png)$/i, ".webp")} 
+                  alt="Impressie Brandweerkazerne" 
+                  loading="lazy"
+                  className="w-full h-auto shadow-md" 
+                />
               ))}
               {/* Extra WhatsApp foto's */}
               {id === "brandweerkazerne" && [
@@ -500,8 +525,18 @@ export default function ProjectDetail() {
           <div className="container-custom">
             <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
-              <img src="/plattegronden/vakantiehuisplattegrond (2).webp" alt="Plattegrond Zondagsschool 1" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
-              <img src="/plattegronden/vakantiehuisplattegrond5 (1).webp" alt="Plattegrond Zondagsschool 2" className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" />
+              <img 
+                src="/plattegronden/vakantiehuisplattegrond (2).webp" 
+                alt="Plattegrond Zondagsschool 1" 
+                loading="lazy"
+                className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" 
+              />
+              <img 
+                src="/plattegronden/vakantiehuisplattegrond5 (1).webp" 
+                alt="Plattegrond Zondagsschool 2" 
+                loading="lazy"
+                className="w-full h-[260px] md:h-[500px] object-contain bg-white rounded-lg" 
+              />
             </div>
           </div>
         </section>

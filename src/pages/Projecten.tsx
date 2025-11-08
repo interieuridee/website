@@ -50,17 +50,23 @@ export default function Projecten() {
 	return (
 		<>
 			<Helmet>
-				<title>Projecten | Interieur-Idee</title>
+				<title>Interieurprojecten | Interieur-Idee | Verbouwing & Ontwerp</title>
 				<meta
 					name="description"
-					content="Bekijk een selectie van gerealiseerde interieurprojecten door Interieur-Idee. Inspiratie voor woningen, woonarken, vakantiehuizen en meer."
+					content="Bekijk onze portfolio van gerealiseerde interieurprojecten. ✓ Verbouwingen ✓ Herbestemmingen ✓ Zakelijke projecten. Inspiratie voor woningen, woonarken en meer in Delft en omgeving."
 				/>
-				<meta property="og:title" content="Projecten | Interieur-Idee" />
+				<meta
+					name="keywords"
+					content="interieurontwerp, verbouwing, herbestemming, interieurarchitect delft, woningverbouwing, zakelijke projecten, interieuradvies"
+				/>
+				<link rel="canonical" href="https://interieur-idee.nl/projecten" />
+				<meta property="og:title" content="Interieurprojecten | Interieur-Idee | Verbouwing & Ontwerp" />
 				<meta
 					property="og:description"
-					content="Inspiratie en voorbeelden van interieurprojecten door Interieur-Idee. Bekijk onze gerealiseerde projecten."
+					content="Bekijk onze portfolio van gerealiseerde interieurprojecten. Verbouwingen, herbestemmingen en zakelijke projecten in Delft en omgeving."
 				/>
 				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://interieur-idee.nl/projecten" />
 			</Helmet>
 
 			<main>

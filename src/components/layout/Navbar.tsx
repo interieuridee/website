@@ -22,10 +22,11 @@ export default function Navbar() {
     <nav className="bg-[#dcd9d0] py-5 fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img 
-            src="/lovable-uploads/interieur-idee logo.webp" 
-            alt="Interieur-Idee Logo" 
-            className="h-8 md:h-10"
+                    <img 
+            src="/lovable-uploads/interieur-idee logo.webp"
+            alt="Interieur-idee logo"
+            loading="lazy"
+            className="h-8 w-auto"
           />
         </Link>
 
