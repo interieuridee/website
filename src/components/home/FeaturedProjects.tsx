@@ -16,10 +16,10 @@ const projects = [
 		imageUrl: "/woonarkfotos/woonarkheader.webp",
 	},
 	{
-		id: "vakantiehuisMaas",
-		title: "Vakantiehuis aan de Maas",
-		category: "Herindeling",
-		imageUrl: "/vakantiehuisMaas/20240827_100219.webp",
+		id: "brandweerkazerne",
+		title: "Projectinrichting en kleuradvies brandweerkazerne",
+		category: "Zakelijk",
+		imageUrl: "/brandweerkazernefotos/20250513_132149.webp",
 	},
 ];
 
