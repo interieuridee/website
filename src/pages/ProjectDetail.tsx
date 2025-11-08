@@ -9,7 +9,7 @@ const projectData = {
   "woonhuis1910": {
     title: "Woonhuis Delft 1910",
     subtitle: "Herindeling begane grond",
-    coverImage: "/woonhuis1910/0.jpg",
+    coverImage: "/woonhuis1910/1.jpg",
     description: "De begane grond van dit huis uit ca. 1910 werd verbouwd om de lichte achterzijde van het huis beter te benutten en tevens de routing te verbeteren.",
     challenge: "Het huis is wat smal en de begane grond wat donker. De keuken zat aan de achtzijde in een aanbouw waar het meeste licht is, de zitkamer in het midden waar een looppad doorheen was. De eettafel aan de straatzijde werd weinig gebruikt en zat ook ver van de keuken. De lange gang nam erg veel ruimte in. De verschillende donkere vloerafwerkingen maakte het onrustig.",
     solution: "Door bijna de hele muur tussen de gang en de kamer te verwijderen is er meer breedte ontstaan. De opening naar de keukenruimte is verbreed en verhoogd waardoor er meer licht de kamer in komt. De keuken verhuisde naar het midden van de kamer en de eettafel helemaal achterin, waar ook twee extra openslaande deuren gemaakt werden. Aan de straatzijde zit nu de zithoek. Overal ligt een zelfde vloer waardoor er meer samenhang is. De berging onder de trap is als voorportaal voor de wc gebruikt, waardoor deze niet direct in de keuken uitkomt.",
@@ -18,20 +18,20 @@ const projectData = {
       oppervlak: "60 m2"
     },
     beforeImages: [
-      "/woonhuis1910/5.jpg",
-      "/woonhuis1910/6.jpg",
+      "/woonhuis1910/9.jpg",
       "/woonhuis1910/7.jpg",
       "/woonhuis1910/8.jpg",
-      "/woonhuis1910/9.jpg",
-      "/woonhuis1910/10.jpg"
+      "/woonhuis1910/10.jpg",
+      "/woonhuis1910/5.jpg",
+      "/woonhuis1910/6.jpg"
     ],
     afterImages: [
       "/woonhuis1910/4.jpg",
-      "/woonhuis1910/11.jpg",
-      "/woonhuis1910/12.jpg",
-      "/woonhuis1910/13.jpg",
       "/woonhuis1910/14.jpg",
-      "/woonhuis1910/15.jpg"
+      "/woonhuis1910/13.jpg",
+      "/woonhuis1910/11.jpg",
+      "/woonhuis1910/15.jpg",
+      "/woonhuis1910/12.jpg"
     ],
     floorplans: [
       "/woonhuis1910/2.png",
@@ -563,12 +563,12 @@ export default function ProjectDetail() {
               <img 
                 src={projectData.woonhuis1910.floorplans[0]}
                 alt="Plattegrond Woonhuis 1910 - Bestaande situatie" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+                className="w-full h-[550px] md:h-[400px] object-contain bg-white" 
               />
               <img 
                 src={projectData.woonhuis1910.floorplans[1]}
                 alt="Plattegrond Woonhuis 1910 - Nieuwe situatie" 
-                className="w-full h-[300px] md:h-[400px] object-contain bg-white" 
+                className="w-full h-[550px] md:h-[400px] object-contain bg-white" 
               />
             </div>
           </div>
