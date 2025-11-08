@@ -5,6 +5,12 @@ import SectionTitle from "@/components/shared/SectionTitle";
 
 const projects = [
 	{
+		id: "woonhuis1910",
+		title: "Woonhuis Delft 1910",
+		category: "VERBOUWING",
+		imageUrl: "/woonhuis1910/0.jpg",
+	},
+	{
 		id: "zondagsschool",
 		title: "Woning in voormalige zondagsschool",
 		category: "Herbestemming",
