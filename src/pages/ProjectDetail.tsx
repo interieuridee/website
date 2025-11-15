@@ -589,27 +589,6 @@ export default function ProjectDetail() {
         </section>
       )}
 
-      {/* Plattegronden voor woonhuis1910 */}
-      {id === "woonhuis1910" && (
-        <section className="section bg-white">
-          <div className="container-custom">
-            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <img 
-                src={projectData.woonhuis1910.floorplans[0]}
-                alt="Plattegrond Woonhuis 1910 - Bestaande situatie" 
-                className="w-full h-[550px] md:h-[400px] object-contain bg-white" 
-              />
-              <img 
-                src={projectData.woonhuis1910.floorplans[1]}
-                alt="Plattegrond Woonhuis 1910 - Nieuwe situatie" 
-                className="w-full h-[550px] md:h-[400px] object-contain bg-white" 
-              />
-            </div>
-          </div>
-        </section>
-      )}
-
 {/* Plattegronden voor woonhuis1910 */}
 {id === "woonhuis1910" && (
   <section className="section bg-white">
@@ -633,6 +612,27 @@ export default function ProjectDetail() {
     </div>
   </section>
 )}
+
+      {/* Plattegronden voor penthousedenhaag */}
+      {id === "penthousedenhaag" && (
+        <section className="section bg-white">
+          <div className="container-custom">
+            <h2 className="text-3xl font-serif mb-8 text-left">Plattegronden</h2>
+            <div className="flex flex-col md:flex-row gap-4 md:gap-8">
+              <img 
+                src="/penthousedenhaag/plattegronden/plattegrondvoor.webp" 
+                alt="Plattegrond Penthouse Den Haag Voor" 
+                className="w-full md:w-1/2 h-[400px] md:h-[600px] object-contain bg-white rounded-lg" 
+              />
+              <img 
+                src="/penthousedenhaag/plattegronden/plattegrondna.webp" 
+                alt="Plattegrond Penthouse Den Haag Na" 
+                className="w-full md:w-1/2 h-[400px] md:h-[600px] object-contain bg-white rounded-lg" 
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Review for penthousedenhaag */}
       {id === "penthousedenhaag" && project.review && (
