@@ -23,8 +23,8 @@ export default function Footer() {
           <div className="flex flex-col items-center lg:items-start">
             <h4 className="font-bold text-xl mb-4">Contact</h4>
             <address className="not-italic text-sm">
-              <p>vd Mastenstraat 11</p>
-              <p>2611 NX Delft</p>
+              <p>Dirklangendwarsstraat 29</p>
+              <p>2611 HZ Delft</p>
               <p className="mt-2">mb 06 54 994 964</p>
               <p className="mt-2">info@interieur-idee.nl</p>
             </address>
