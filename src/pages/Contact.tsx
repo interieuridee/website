@@ -39,8 +39,8 @@ export default function Contact() {
                     <p className="font-medium mb-1">Adres</p>
                     <address className="not-italic">
                       <p>Interieur-Idee</p>
-                      <p>vd Mastenstraat 11</p>
-                      <p>2611 NX Delft</p>
+                      <p>Dirklangendwarsstraat 29</p>
+                      <p>2611 HZ Delft</p>
                     </address>
                   </div>
                 </div>
